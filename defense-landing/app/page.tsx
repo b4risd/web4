@@ -31,13 +31,13 @@ export default function Home() {
         <div className="container-centered py-24 md:py-28 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip">
-              <span className="text-glow">Türkiye Savunma Sanayii • Ekosistem ve Rapor</span>
+              <span className="text-glow">Türkiyenin Savunma Sanayi Platformu</span>
             </div>
             <h1 className="mt-6 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
-              Türkiye savunma sanayii için görev-kritik yazılım ve entegrasyon
+              Türkiye'nin Savunma Sanayi Ekosistemi
             </h1>
             <p className="mt-5 text-white/70 text-lg">
-              C2/C4ISR, sensör füzyonu, elektronik harp ve güvenli taktik ağ çözümleri. Kara, hava, deniz ve siber alanlarda müşterek harekât için tasarlandı.
+              Türkiye'nin önde gelen savunma sanayi şirketlerini keşfedin. Teknoloji, inovasyon ve milli güvenlik alanında faaliyet gösteren kuruluşları inceleyin.
             </p>
             <div className="mt-9 flex flex-col sm:flex-row gap-3 justify-center">
               <a className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-black font-medium hover:bg-white/90 transition-colors" href="#contact">İletişime Geç</a>

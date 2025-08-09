@@ -79,7 +79,7 @@ body {
 
 .animate-float { animation: float 6s ease-in-out infinite; }
 .animate-pulse-soft { animation: pulseSoft 4.5s ease-in-out infinite; }
-.animate-marquee { animation: marquee 24s linear infinite; }
+.animate-marquee { animation: marquee 36s linear infinite; }
 
 .perspective-1000 { perspective: 1000px; }
 .tilt:hover { transform: rotateX(2deg) rotateY(-2deg) translateY(-2px); }
@@ -93,10 +93,10 @@ body {
   box-shadow: 0 2px 12px rgba(0,0,0,0.25), inset 0 0 0 1px rgba(255,255,255,0.05);
 }
 .chip:hover {
-  transform: translateY(-2px) scale(1.02);
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(180, 255, 232, 0.35);
-  box-shadow: 0 6px 24px rgba(16,185,129,0.25);
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.10);
+  border-color: rgba(180, 255, 232, 0.28);
+  box-shadow: 0 4px 16px rgba(16,185,129,0.18);
 }
 .text-glow {
   text-shadow: 0 2px 14px rgba(180,255,232,0.35), 0 1px 2px rgba(0,0,0,0.3);
@@ -111,10 +111,12 @@ body {
   left: -50%;
   width: 50%;
   height: 300%;
-  background: linear-gradient(115deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.09) 35%, rgba(255,255,255,0) 70%);
+  background: linear-gradient(115deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.08) 35%, rgba(255,255,255,0) 70%);
   transform: rotate(20deg);
-  animation: shineSlide 5.5s linear infinite;
+  opacity: 0;
+  animation: none;
 }
+.shine:hover::after { opacity: 1; animation: shineSlide 3.8s linear 1; }
 @keyframes shineSlide {
   0% { transform: translateX(-160%) rotate(20deg); }
   100% { transform: translateX(160%) rotate(20deg); }

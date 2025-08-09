@@ -11,10 +11,11 @@ export default function Home() {
             <span className="text-sm font-semibold tracking-[0.2em] text-white/90">AEGIS DEFENSE</span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/70">
+            <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
             <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
             <a href="#programs" className="hover:text-white transition-colors">Programlar</a>
-            <a href="#cases" className="hover:text-white transition-colors">Vaka</a>
-            <a href="#news" className="hover:text-white transition-colors">Haberler</a>
+            <a href="#tier1" className="hover:text-white transition-colors">Tier‑1</a>
+            <a href="#tier2" className="hover:text-white transition-colors">Tier‑2</a>
             <a href="#companies" className="hover:text-white transition-colors">Şirketler</a>
             <a href="#contact" className="hover:text-white transition-colors">İletişim</a>
           </nav>
@@ -40,7 +41,7 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-col sm:flex-row gap-3 justify-center">
               <a className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-black font-medium hover:bg-white/90 transition-colors" href="#contact">İletişime Geç</a>
-              <a className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-white/90 hover:bg-white/5 transition-colors" href="#features">Yetenekleri İncele</a>
+              <a className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-white/90 hover:bg-white/5 transition-colors" href="#overview">Raporu Oku</a>
             </div>
           </div>
 
@@ -50,6 +51,247 @@ export default function Home() {
                 {logo}
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Overview & KPIs (from report) */}
+      <section id="overview" className="border-t border-white/10 bg-black">
+        <div className="container-centered py-20">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Yönetici Özeti ve Genel Bakış</h2>
+            <p className="mt-4 text-white/70">
+              Türk savunma ve havacılık sanayii, dışa bağımlılıktan küresel rekabete evrilen stratejik bir dönüşüm hikâyesidir. 2002'de 1 milyar $ cirodan,
+              2024'te 15 milyar $ üzeri seviyeye; ihracatta ise 248 milyon $'dan 2024'te 7.1 milyar $'a ulaşarak sürdürülebilir bir büyüme yakalamıştır.
+              2028 hedefleri 26 milyar $ ciro ve 11 milyar $ ihracattır.
+            </p>
+          </div>
+
+          {/* KPI Table */}
+          <div className="mt-10 rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-4 overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead className="text-white/80">
+                <tr className="border-b border-white/10">
+                  <th className="py-3 px-3">Metrik</th>
+                  <th className="py-3 px-3">2022</th>
+                  <th className="py-3 px-3">2023</th>
+                  <th className="py-3 px-3">2024 (son)</th>
+                  <th className="py-3 px-3">2028 hedefi</th>
+                </tr>
+              </thead>
+              <tbody className="text-white/70">
+                <tr className="border-b border-white/10">
+                  <td className="py-3 px-3">Toplam Ciro</td>
+                  <td className="py-3 px-3">12.2 milyar $</td>
+                  <td className="py-3 px-3">15.07 milyar $</td>
+                  <td className="py-3 px-3">15+ milyar $</td>
+                  <td className="py-3 px-3">26 milyar $</td>
+                </tr>
+                <tr className="border-b border-white/10">
+                  <td className="py-3 px-3">Toplam İhracat</td>
+                  <td className="py-3 px-3">4.4 milyar $</td>
+                  <td className="py-3 px-3">5.5 milyar $</td>
+                  <td className="py-3 px-3">7.1 milyar $</td>
+                  <td className="py-3 px-3">11 milyar $</td>
+                </tr>
+                <tr className="border-b border-white/10">
+                  <td className="py-3 px-3">Ar‑Ge Harcamaları</td>
+                  <td className="py-3 px-3">1.6 milyar $</td>
+                  <td className="py-3 px-3">2.62 milyar $</td>
+                  <td className="py-3 px-3">Veri yok</td>
+                  <td className="py-3 px-3">—</td>
+                </tr>
+                <tr>
+                  <td className="py-3 px-3">İstihdam</td>
+                  <td className="py-3 px-3">81,132</td>
+                  <td className="py-3 px-3">90,969</td>
+                  <td className="py-3 px-3">Veri yok</td>
+                  <td className="py-3 px-3">150,000+</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-6 text-white/70 max-w-4xl mx-auto">
+            <p>
+              Yerlilik oranı %20'lerden %80+'a çıkarılırken, sektör sürdürülebilir ihracata bağımlılık geliştirerek küresel pazarlarda kalıcı bir yer edinmiştir. 2023'te Ar‑Ge harcaması 2.6 milyar $'ı aşmıştır.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Tier 1 */}
+      <section id="tier1" className="border-t border-white/10 bg-black">
+        <div className="container-centered py-20">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Tier‑1: Küresel Şampiyonlar (Defense News Top 100)</h2>
+            <p className="mt-3 text-white/70">ASELSAN, TUSAŞ, ROKETSAN, MKE, ASFAT ve ihracat lideri Baykar'ın öne çıkan rolü.</p>
+          </div>
+          <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[{
+              name: "ASELSAN (Sıra: 42)",
+              bullets: [
+                "Savunma elektroniği omurgası: C4I, radar, EH, EO, aviyonik",
+                "2023 savunma cirosu: 2.986 milyar $ (+%29)",
+                "KAAN için AESA radar MURAD‑600A ve BÜRFİS; ALTAY AKKOR; TCG ANADOLU Savaş Yönetim Sistemi",
+                "ASELFLIR‑500: 16+ ülkeye ihracat",
+              ]
+            },{
+              name: "TUSAŞ (Sıra: 50)",
+              bullets: [
+                "Hava platformlarında milli şampiyon: uçak, helikopter, İHA",
+                "2023 savunma cirosu: 2.205 milyar $ (+%49)",
+                "Projeler: KAAN, HÜRJET, ANKA/ANKA‑3, GÖKBEY, ATAK",
+              ]
+            },{
+              name: "ROKETSAN (Sıra: 71)",
+              bullets: [
+                "Füze ve roket sistemleri, hava savunma (HİSAR), zırh çözümleri",
+                "2023 savunma cirosu: 1.256 milyar $",
+                "ATMACA, UMTAS/OMTAS, ÇAKIR yeni nesil seyir füzesi",
+              ]
+            },{
+              name: "MKE (Sıra: 84)",
+              bullets: [
+                "Silah ve mühimmat ana üreticisi, 2021'den beri A.Ş.",
+                "2023 savunma cirosu: 905.75 milyon $ (+%64)",
+                "MPT‑76, BORAN, DENİZHAN; ALTAY 120 mm ana silah",
+              ]
+            },{
+              name: "ASFAT (Sıra: 94)",
+              bullets: [
+                "Askeri fabrika/tersane tecrübesiyle ihracat odaklı yapı",
+                "2023 savunma cirosu: 656.88 milyon $",
+                "PN MİLGEM ana yüklenici; ADKG; MEMATT; A400M retrofit",
+              ]
+            },{
+              name: "Baykar (Liste dışı, 1# ihracatçı)",
+              bullets: [
+                "2023 ihracat: 1.766 milyar $; 34+ ülkeye ürün",
+                "Ürünler: TB2, AKINCI, TB3, KIZILELMA, KEMANKEŞ",
+              ]
+            }].map((item) => (
+              <div key={item.name} className="rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-6">
+                <div className="text-sm text-white/60">Şirket</div>
+                <h3 className="mt-1 text-lg font-semibold">{item.name}</h3>
+                <ul className="mt-3 space-y-2 text-sm text-white/70">
+                  {item.bullets.map((b) => (
+                    <li key={b}>• {b}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Tier 2 */}
+      <section id="tier2" className="border-t border-white/10 bg-black">
+        <div className="container-centered py-20">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Tier‑2: Ana Yükleniciler ve Sistem Entegratörleri</h2>
+            <p className="mt-3 text-white/70">Platformların beyni ve sinir sistemi: C4I, SYS, simülasyon, denizaltı ve kara sistemleri.</p>
+          </div>
+          <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[{
+              name: "HAVELSAN",
+              bullets: [
+                "ADVENT Savaş Yönetim Sistemi (ağ destekli)",
+                "HELSİM, tam kapsamlı simülatörler; siber güvenlik",
+                "İhracat: Pakistan, Ukrayna, Endonezya, Şili",
+              ]
+            },{
+              name: "STM",
+              bullets: [
+                "MİLGEM ve korvet projeleri; İ‑sınıfı ana yüklenici",
+                "KARGU, TOGAN, BOYGA taktik mini İHA ailesi",
+                "STM500 mini denizaltı: ilk mukavim tekne bloğu (2024)",
+              ]
+            },{
+              name: "FNSS",
+              bullets: [
+                "PARS 4x4/6x6/8x8; KAPLAN; ZAHA amfibi araç",
+                "TEBER, SANCAK kule sistemleri; GÖLGE SÜVARİ İKA",
+              ]
+            },{
+              name: "Otokar",
+              bullets: [
+                "COBRA, ARMA taktik tekerlekli zırhlı aileleri",
+                "ALTAY prototip tasarım/geliştirme ana yüklenici",
+              ]
+            },{
+              name: "BMC",
+              bullets: [
+                "KİRPİ, VURAN MRAP; ALTAY seri üretim ana yüklenici",
+              ]
+            },{
+              name: "Nurol Makina",
+              bullets: [
+                "EJDER YALÇIN 4x4, NMS (YÖRÜK) 4x4; modüler görev",
+              ]
+            },{
+              name: "TEI",
+              bullets: [
+                "PD170 (İHA), TJ300 (füze), TF6000/TF10000 (turbofan)",
+                "GE F110/LEAP için kritik parça üretimi",
+              ]
+            },{
+              name: "Alp Havacılık",
+              bullets: [
+                "Rotor/dinamik parçalar, dişli kutuları, iniş takımı",
+                "F‑135 için titanyum/nikel blisk üretimi",
+              ]
+            }].map((item) => (
+              <div key={item.name} className="rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-6">
+                <div className="text-sm text-white/60">Şirket</div>
+                <h3 className="mt-1 text-lg font-semibold">{item.name}</h3>
+                <ul className="mt-3 space-y-2 text-sm text-white/70">
+                  {item.bullets.map((b) => (
+                    <li key={b}>• {b}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Architects */}
+      <section id="architects" className="border-t border-white/10 bg-black">
+        <div className="container-centered py-20">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Ekosistemin Mimarları</h2>
+            <p className="mt-3 text-white/70">SSB, TSKGV ve sanayi kümeleri (SAHA İstanbul, OSSA) ekosistemin omurgasıdır.</p>
+          </div>
+          <div className="mt-10 grid md:grid-cols-3 gap-6">
+            {[{
+              name: "Savunma Sanayii Başkanlığı (SSB)",
+              text: "850+ projeyi yöneten, teknolojik yol haritalarını belirleyen ve yerlileştirmeyi teşvik eden stratejik planlayıcı."
+            },{
+              name: "TSKGV",
+              text: "ASELSAN, TUSAŞ, ROKETSAN, HAVELSAN, İŞBİR, ASPİLSAN'da çoğunluk hissedar; karı yeniden ekosisteme yönlendiren finansal omurga."
+            },{
+              name: "Sanayi Kümeleri (SAHA/OSSA)",
+              text: "1000'e yakın üye firma ile Avrupa'nın en büyük kümelenmesi; EYDEP, sertifikasyon ve B2B etkinlikleriyle KOBİ'leri ana yüklenicilere bağlar."
+            }].map((c) => (
+              <div key={c.name} className="rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-6">
+                <div className="text-sm text-white/60">Kurum</div>
+                <h3 className="mt-1 text-lg font-semibold">{c.name}</h3>
+                <p className="mt-3 text-sm text-white/70">{c.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Conclusion */}
+      <section id="conclusion" className="border-t border-white/10 bg-black">
+        <div className="container-centered py-20">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Sonuç ve Yol Haritası</h2>
+            <p className="mt-3 text-white/70">
+              Türkiye, platform ve entegrasyonda güçlü; sürdürülebilir büyüme için yeni pazarlara açılım ve çekirdek teknolojilerde (motor, transmisyon, gelişmiş sensörler) atılım kritik önemdedir. Hedef: küresel tedarikçi liginde kalıcı yer.
+            </p>
           </div>
         </div>
       </section>

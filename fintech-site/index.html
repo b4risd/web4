@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmos Tasks | Modern Task Management For Teams</title>
+  <meta name="description" content="Streamline your workflow with our intuitive task management platform. Designed for modern teams who value clarity, focus, and results." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html, body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .container-constraint { max-width: 1100px; }
+    .glass { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); backdrop-filter: blur(10px); }
+    .gradient-text { background: linear-gradient(90deg,#FF8E63 2.5%, #FF7EB0 56%, #4B73FF 95%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .btn-gradient { background: linear-gradient(90deg,#6D28D9,#2563EB); }
+  </style>
+</head>
+<body class="bg-[#0B0B10] text-zinc-100">
+  <!-- Nav -->
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-black/30 backdrop-blur">
+    <div class="mx-auto container-constraint px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-7 w-7 rounded-md" style="background: radial-gradient(100% 100% at 30% 20%, #FF8E63 0%, #FF7EB0 56%, #4B73FF 95%);"></div>
+        <span class="font-semibold">Cosmos Tasks</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm text-zinc-300">
+        <a href="#features" class="hover:text-white">Features</a>
+        <a href="#pricing" class="hover:text-white">Pricing</a>
+        <a href="#testimonials" class="hover:text-white">Testimonials</a>
+        <a href="#faq" class="hover:text-white">FAQ</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#" class="px-4 py-2 rounded-md text-sm border border-white/15 hover:bg-white/5">Sign in</a>
+        <a href="#pricing" class="px-4 py-2 rounded-md text-sm btn-gradient hover:opacity-90">Get started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10">
+      <div class="absolute -top-32 left-1/2 -translate-x-1/2 h-[420px] w-[780px] rounded-full blur-3xl opacity-40" style="background: radial-gradient(60% 60% at 50% 50%, #4B73FF55, #FF7EB055 60%, transparent 75%);"></div>
+    </div>
+    <div class="mx-auto container-constraint px-6 py-20 md:py-28 text-center">
+      <p class="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 text-xs text-zinc-300 mb-6 glass">
+        <span class="h-2 w-2 rounded-full bg-green-400"></span>
+        Now in public beta
+      </p>
+      <h1 class="text-4xl md:text-6xl font-semibold leading-tight mb-5">Modern Task Management For Teams</h1>
+      <p class="text-zinc-300 md:text-lg max-w-2xl mx-auto mb-8">Streamline your workflow with our intuitive platform. Designed for teams who value clarity, focus, and results.</p>
+      <div class="flex items-center justify-center gap-3">
+        <a href="#pricing" class="px-5 py-3 rounded-md btn-gradient">Start free trial</a>
+        <a href="#features" class="px-5 py-3 rounded-md border border-white/15 hover:bg-white/5">See features</a>
+      </div>
+      <div class="mt-14 grid grid-cols-2 md:grid-cols-4 gap-6 text-left">
+        <div class="glass rounded-xl p-5">
+          <div class="text-3xl font-semibold">50%</div>
+          <div class="text-zinc-400 text-sm">Faster sprints</div>
+        </div>
+        <div class="glass rounded-xl p-5">
+          <div class="text-3xl font-semibold">2x</div>
+          <div class="text-zinc-400 text-sm">Team velocity</div>
+        </div>
+        <div class="glass rounded-xl p-5">
+          <div class="text-3xl font-semibold">99.9%</div>
+          <div class="text-zinc-400 text-sm">Uptime SLA</div>
+        </div>
+        <div class="glass rounded-xl p-5">
+          <div class="text-3xl font-semibold">24/7</div>
+          <div class="text-zinc-400 text-sm">Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-20 md:py-28">
+    <div class="mx-auto container-constraint px-6">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Everything you need to move faster</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-xl p-6">
+          <div class="text-xl font-medium mb-2">Kanban & Sprints</div>
+          <p class="text-zinc-400 text-sm">Flexible boards and sprint planning that teams actually enjoy using.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="text-xl font-medium mb-2">Real‑time Collaboration</div>
+          <p class="text-zinc-400 text-sm">Comments, mentions, and live updates keep everyone aligned.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="text-xl font-medium mb-2">Automations</div>
+          <p class="text-zinc-400 text-sm">Reduce busywork with rules, triggers, and integrations.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="text-xl font-medium mb-2">Powerful Search</div>
+          <p class="text-zinc-400 text-sm">Find anything instantly with filters and saved views.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="text-xl font-medium mb-2">Insights</div>
+          <p class="text-zinc-400 text-sm">Velocity charts, cycle time, workload, and more.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="text-xl font-medium mb-2">Secure & Compliant</div>
+          <p class="text-zinc-400 text-sm">SOC 2, SSO/SAML, audit logs, and granular roles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-20 md:py-28 bg-white/5">
+    <div class="mx-auto container-constraint px-6">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Simple pricing</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-2xl p-6 flex flex-col">
+          <h3 class="text-xl font-semibold">Starter</h3>
+          <div class="mt-2 text-4xl font-bold">$0</div>
+          <p class="text-zinc-400 text-sm">For individuals and hobby projects</p>
+          <ul class="mt-4 space-y-2 text-sm text-zinc-300">
+            <li>Up to 3 projects</li>
+            <li>Kanban board</li>
+            <li>Basic automations</li>
+          </ul>
+          <a class="mt-6 px-4 py-2 rounded-md border border-white/15 hover:bg-white/5 text-center" href="#">Get started</a>
+        </div>
+        <div class="glass rounded-2xl p-6 ring-2 ring-indigo-500 flex flex-col">
+          <h3 class="text-xl font-semibold">Team</h3>
+          <div class="mt-2 text-4xl font-bold">$12<span class="text-base font-medium text-zinc-300">/user</span></div>
+          <p class="text-zinc-400 text-sm">Best for growing teams</p>
+          <ul class="mt-4 space-y-2 text-sm text-zinc-300">
+            <li>Unlimited projects</li>
+            <li>Advanced automations</li>
+            <li>Insights & reports</li>
+          </ul>
+          <a class="mt-6 px-4 py-2 rounded-md btn-gradient text-center" href="#">Start free trial</a>
+        </div>
+        <div class="glass rounded-2xl p-6 flex flex-col">
+          <h3 class="text-xl font-semibold">Enterprise</h3>
+          <div class="mt-2 text-4xl font-bold">Custom</div>
+          <p class="text-zinc-400 text-sm">Security and scale</p>
+          <ul class="mt-4 space-y-2 text-sm text-zinc-300">
+            <li>SSO/SAML</li>
+            <li>Dedicated support</li>
+            <li>Custom SLAs</li>
+          </ul>
+          <a class="mt-6 px-4 py-2 rounded-md border border-white/15 hover:bg-white/5 text-center" href="#">Contact sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 md:py-28">
+    <div class="mx-auto container-constraint px-6">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Teams get more done with Cosmos</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-xl p-6">
+          <p class="text-zinc-200">“We shipped 2x faster after switching.”</p>
+          <div class="mt-4 text-sm text-zinc-400">— Maya, PM at Vectra</div>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <p class="text-zinc-200">“The automations saved us hours weekly.”</p>
+          <div class="mt-4 text-sm text-zinc-400">— Liam, Eng Lead at Northwind</div>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <p class="text-zinc-200">“Simple, fast, and delightful.”</p>
+          <div class="mt-4 text-sm text-zinc-400">— Zoe, Founder at Orbit</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 md:py-28 bg-white/5">
+    <div class="mx-auto container-constraint px-6">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Frequently asked questions</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="glass rounded-xl p-6">
+          <div class="font-medium">Is there a free plan?</div>
+          <p class="text-zinc-400 text-sm mt-2">Yes, our Starter plan is free forever.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="font-medium">Can I cancel anytime?</div>
+          <p class="text-zinc-400 text-sm mt-2">Absolutely, no lock‑ins.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="font-medium">Do you offer support?</div>
+          <p class="text-zinc-400 text-sm mt-2">24/7 support for Team and Enterprise.</p>
+        </div>
+        <div class="glass rounded-xl p-6">
+          <div class="font-medium">Is my data secure?</div>
+          <p class="text-zinc-400 text-sm mt-2">We follow industry best practices with regular audits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="mx-auto container-constraint px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-400">
+      <div class="flex items-center gap-2">
+        <div class="h-6 w-6 rounded-md" style="background: radial-gradient(100% 100% at 30% 20%, #FF8E63 0%, #FF7EB0 56%, #4B73FF 95%);"></div>
+        <span>Cosmos Tasks</span>
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="#" class="hover:text-zinc-200">Privacy</a>
+        <a href="#" class="hover:text-zinc-200">Terms</a>
+        <a href="#" class="hover:text-zinc-200">Status</a>
+      </div>
+      <div>© <span id="year"></span> Cosmos Inc.</div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

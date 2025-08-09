@@ -19,21 +19,21 @@ export default function Home() {
             <a href="#companies" className="hover:text-white transition-colors">Şirketler</a>
             <a href="#contact" className="hover:text-white transition-colors">İletişim</a>
           </nav>
-          {/* buttons removed for landing */}
         </div>
       </header>
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-black">
-        {/* grid and glow */}
+        <div className="beam beam--emerald size-[560px] -top-40 -left-20 rounded-full animate-pulse-soft" />
+        <div className="beam beam--cyan size-[420px] top-20 -right-28 rounded-full animate-float" />
+        {/* grid */}
         <div className="absolute inset-0 opacity-[0.12]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.6) 1px, transparent 1px)", backgroundSize: "24px 24px" }} />
-        <div className="absolute -top-40 left-1/2 -translate-x-1/2 size-[720px] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.14),transparent_60%)]" />
         <div className="container-centered py-24 md:py-28 relative">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/[0.06] px-3 py-1 text-white/80 text-xs">
+          <div className="max-w-3xl mx-auto text-center perspective-1000">
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card">
               <span>Komuta-Kontrol • C4ISR • Siber Güvenlik • EH</span>
             </div>
-            <h1 className="mt-6 text-5xl md:text-6xl font-semibold tracking-tight">
+            <h1 className="mt-6 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
               Türkiye savunma sanayii için görev-kritik yazılım ve entegrasyon
             </h1>
             <p className="mt-5 text-white/70 text-lg">
@@ -45,12 +45,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-16 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 opacity-80">
-            {["ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR"].map((logo) => (
-              <div key={logo} className="h-10 rounded border border-white/10 flex items-center justify-center text-xs text-white/60">
-                {logo}
-              </div>
-            ))}
+          {/* marquee logos */}
+          <div className="relative mt-16 overflow-hidden">
+            <div className="flex gap-6 whitespace-nowrap animate-marquee">
+              {Array(2)
+                .fill([
+                  "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
+                  "BMC","FNSS","OTOKAR","MKE","TEI","KALE",
+                ])
+                .flat()
+                .map((logo, i) => (
+                  <div key={`${logo}-${i}`} className="h-10 min-w-40 rounded border border-white/10 glass-card flex items-center justify-center text-xs text-white/70">
+                    {logo}
+                  </div>
+                ))}
+            </div>
           </div>
         </div>
       </section>
@@ -59,7 +68,7 @@ export default function Home() {
       <section id="overview" className="border-t border-white/10 bg-black">
         <div className="container-centered py-20">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Yönetici Özeti ve Genel Bakış</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Yönetici Özeti ve Genel Bakış</h2>
             <p className="mt-4 text-white/70">
               Türk savunma ve havacılık sanayii, dışa bağımlılıktan küresel rekabete evrilen stratejik bir dönüşüm hikâyesidir. 2002'de 1 milyar $ cirodan,
               2024'te 15 milyar $ üzeri seviyeye; ihracatta ise 248 milyon $'dan 2024'te 7.1 milyar $'a ulaşarak sürdürülebilir bir büyüme yakalamıştır.
@@ -68,7 +77,7 @@ export default function Home() {
           </div>
 
           {/* KPI Table */}
-          <div className="mt-10 rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-4 overflow-x-auto">
+          <div className="mt-10 rounded-2xl border border-white/10 glass-card p-4 overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead className="text-white/80">
                 <tr className="border-b border-white/10">
@@ -124,7 +133,7 @@ export default function Home() {
       <section id="tier1" className="border-t border-white/10 bg-black">
         <div className="container-centered py-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Tier‑1: Küresel Şampiyonlar (Defense News Top 100)</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Tier‑1: Küresel Şampiyonlar (Defense News Top 100)</h2>
             <p className="mt-3 text-white/70">ASELSAN, TUSAŞ, ROKETSAN, MKE, ASFAT ve ihracat lideri Baykar'ın öne çıkan rolü.</p>
           </div>
           <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -189,7 +198,7 @@ export default function Home() {
       <section id="tier2" className="border-t border-white/10 bg-black">
         <div className="container-centered py-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Tier‑2: Ana Yükleniciler ve Sistem Entegratörleri</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Tier‑2: Ana Yükleniciler ve Sistem Entegratörleri</h2>
             <p className="mt-3 text-white/70">Platformların beyni ve sinir sistemi: C4I, SYS, simülasyon, denizaltı ve kara sistemleri.</p>
           </div>
           <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -507,22 +516,27 @@ export default function Home() {
       <section id="companies" className="border-t border-white/10 bg-black">
         <div className="container-centered py-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Türkiye Savunma Sanayii Şirketleri</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Türkiye Savunma Sanayii Şirketleri</h2>
             <p className="mt-3 text-white/70">Öne çıkan üreticiler, entegratörler ve çözüm sağlayıcılar.</p>
           </div>
-          <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {[
-              "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
-              "BMC","FNSS","OTOKAR","MKE","TEI","KALE",
-              "NUROL MAKİNA","KATMERCİLER","VESTEL SAVUNMA","METEKSAN",
-              "TUALCOM","SDT","MİLSOFT","ALP HAVACILIK",
-              "ARES TERSANESİ","DEARSAN","YONCA-ONUK","SEFİNE",
-              "KOÇ SAVUNMA","PROFEN SAVUNMA","ASELSAN KONYA","GÜRSAN",
-            ].map((c) => (
-              <div key={c} className="h-12 rounded-xl border border-white/10 bg-white/[0.08] backdrop-blur-md flex items-center justify-center text-xs text-white/80">
-                {c}
-              </div>
-            ))}
+          <div className="relative mt-10 overflow-hidden rounded-2xl border border-white/10 glass-card">
+            <div className="flex gap-4 whitespace-nowrap animate-marquee p-4">
+              {Array(2)
+                .fill([
+                  "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
+                  "BMC","FNSS","OTOKAR","MKE","TEI","KALE",
+                  "NUROL MAKİNA","KATMERCİLER","VESTEL SAVUNMA","METEKSAN",
+                  "TUALCOM","SDT","MİLSOFT","ALP HAVACILIK",
+                  "ARES TERSANESİ","DEARSAN","YONCA-ONUK","SEFİNE",
+                  "KOÇ SAVUNMA","PROFEN SAVUNMA","ASELSAN KONYA","GÜRSAN",
+                ])
+                .flat()
+                .map((c, i) => (
+                  <div key={`${c}-${i}`} className="h-10 min-w-44 rounded-lg border border-white/10 bg-black/30 flex items-center justify-center text-xs text-white/80">
+                    {c}
+                  </div>
+                ))}
+            </div>
           </div>
         </div>
       </section>

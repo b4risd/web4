@@ -8,7 +8,7 @@ export default function Home() {
         <div className="container-centered h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="size-8 rounded bg-white/10 border border-white/20" />
-            <span className="text-sm font-semibold tracking-[0.2em] text-white/90">AEGIS DEFENSE</span>
+            <span className="text-sm font-semibold tracking-[0.2em] text-white/90 text-glow">TR DEFENSE ECOSYSTEM</span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/70">
             <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
@@ -30,8 +30,8 @@ export default function Home() {
         <div className="absolute inset-0 opacity-[0.12]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.6) 1px, transparent 1px)", backgroundSize: "24px 24px" }} />
         <div className="container-centered py-24 md:py-28 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card">
-              <span>Komuta-Kontrol • C4ISR • Siber Güvenlik • EH</span>
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip">
+              <span className="text-glow">Türkiye Savunma Sanayii • Ekosistem ve Rapor</span>
             </div>
             <h1 className="mt-6 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
               Türkiye savunma sanayii için görev-kritik yazılım ve entegrasyon
@@ -55,7 +55,7 @@ export default function Home() {
                 ])
                 .flat()
                 .map((logo, i) => (
-                  <div key={`${logo}-${i}`} className="h-10 min-w-40 rounded border border-white/10 glass-card flex items-center justify-center text-xs text-white/70">
+                  <div key={`${logo}-${i}`} className="h-10 min-w-40 rounded border border-white/10 glass-card chip shine flex items-center justify-center text-xs text-white/80">
                     {logo}
                   </div>
                 ))}
@@ -180,7 +180,7 @@ export default function Home() {
                 "Ürünler: TB2, AKINCI, TB3, KIZILELMA, KEMANKEŞ",
               ]
             }].map((item) => (
-              <div key={item.name} className="rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-6">
+              <div key={item.name} className="rounded-2xl border border-white/10 glass-card shine p-6">
                 <div className="text-sm text-white/60">Şirket</div>
                 <h3 className="mt-1 text-lg font-semibold">{item.name}</h3>
                 <ul className="mt-3 space-y-2 text-sm text-white/70">
@@ -251,7 +251,7 @@ export default function Home() {
                 "F‑135 için titanyum/nikel blisk üretimi",
               ]
             }].map((item) => (
-              <div key={item.name} className="rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-6">
+              <div key={item.name} className="rounded-2xl border border-white/10 glass-card shine p-6">
                 <div className="text-sm text-white/60">Şirket</div>
                 <h3 className="mt-1 text-lg font-semibold">{item.name}</h3>
                 <ul className="mt-3 space-y-2 text-sm text-white/70">

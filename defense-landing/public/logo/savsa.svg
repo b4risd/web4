@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="24" viewBox="0 0 140 24">
-  <rect width="140" height="24" fill="none"/>
-  <!-- Wordmark: SAVSA.TR -->
-  <g font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-weight="700">
-    <text x="0" y="17" font-size="16" letter-spacing="0.14em" fill="#E7FFF6">SAVSA</text>
-    <text x="86" y="17" font-size="16" letter-spacing="0.12em" fill="#7DE3D7">.TR</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20" viewBox="0 0 120 20">
+  <rect width="120" height="20" fill="none"/>
+  <g font-family="Segoe UI, Inter, system-ui, -apple-system, Arial, sans-serif" font-weight="800">
+    <text x="0" y="15" font-size="14" fill="#E7FFF6" textLength="62" lengthAdjust="spacingAndGlyphs">SAVSA</text>
+    <text x="66" y="15" font-size="14" fill="#9EFDF0" textLength="28" lengthAdjust="spacingAndGlyphs">.TR</text>
   </g>
-  <!-- Subtle underline accent under .TR for clarity at small sizes -->
-  <rect x="86" y="18" width="36" height="1.2" fill="#57C9BE" opacity="0.35"/>
 </svg>

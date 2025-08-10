@@ -1,5 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import AITool from "./components/AITool";
+import { Orbitron } from "next/font/google";
+
+const orbitron = Orbitron({ weight: "600", subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -8,7 +11,10 @@ export default function Home() {
       <header className="sticky top-0 z-40 bg-transparent border-0 relative">
         <div className="absolute inset-0 moving-grid pointer-events-none" aria-hidden="true" />
         <div className="container-centered h-16 flex items-center justify-center relative z-10">
-          {/* No logo */}
+          {/* Text logo */}
+          <div className={`${orbitron.className} absolute left-4 top-1/2 -translate-y-1/2 select-none`}> 
+            <span className="block leading-none text-[20px] md:text-[22px] lg:text-[26px] tracking-[0.35em] gradient-text">S A V S A</span>
+          </div>
           <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
             <nav className="flex items-center gap-6 text-sm text-white/70">
               <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-4 w-auto"/>
@@ -506,7 +512,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-white/10 bg-black">
         <div className="container-centered py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-white/60 text-sm">
-          <div>© {new Date().getFullYear()} Aegis Defense</div>
+          <div>© {new Date().getFullYear()} SAVSA.TR</div>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-white">Gizlilik</a>
             <a href="#" className="hover:text-white">Şartlar</a>

@@ -110,3 +110,11 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET / 200 in 125ms
  GET /favicon.ico 200 in 7ms
  GET / 200 in 82ms
+ ✓ Compiled in 108ms (225 modules)
+ ✓ Compiled in 82ms (225 modules)
+ GET / 200 in 44ms
+ GET / 200 in 41ms
+ ✓ Compiled in 373ms (555 modules)
+ GET / 200 in 127ms
+ ✓ Compiled in 128ms (555 modules)
+ GET / 200 in 94ms

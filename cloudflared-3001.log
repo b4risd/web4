@@ -219,3 +219,19 @@
 2025-08-10T12:36:11Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.33
 2025-08-10T12:36:11Z INF Retrying connection in up to 1m4s connIndex=0 event=0 ip=198.41.200.33
 2025-08-10T12:36:17Z ERR Connection terminated error="context canceled" connIndex=0
+2025-08-10T12:41:20Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:41:20Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:41:20Z INF Retrying connection in up to 1m4s connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:41:36Z ERR Connection terminated error="context canceled" connIndex=0
+2025-08-10T12:42:27Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:42:27Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:42:27Z INF Retrying connection in up to 1m4s connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:42:47Z ERR Connection terminated error="context canceled" connIndex=0
+2025-08-10T12:43:06Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:43:06Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:43:06Z INF Retrying connection in up to 1m4s connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:43:35Z ERR Connection terminated error="context canceled" connIndex=0
+2025-08-10T12:45:53Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:45:53Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:45:53Z INF Retrying connection in up to 1m4s connIndex=0 event=0 ip=198.41.200.33
+2025-08-10T12:46:04Z ERR Connection terminated error="context canceled" connIndex=0

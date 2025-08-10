@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import AITool from "./components/AITool";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   return (
@@ -491,15 +492,7 @@ export default function Home() {
             <p className="mt-2 text-white/80">E-posta: <a href="mailto:info@savsa.tr" className="font-bold text-base md:text-lg gradient-text text-glow">info@savsa.tr</a></p>
           </div>
           <div className="mt-8 max-w-2xl mx-auto rounded-2xl border border-white/10 bg-white/[0.08] p-6 backdrop-blur-md">
-            <form action="mailto:sales@aegisdefense.example" method="post" className="grid md:grid-cols-2 gap-4">
-              <input className="h-11 rounded-lg bg-black/30 border border-white/10 px-3 text-sm outline-none focus:border-white/30" placeholder="Ad Soyad" required />
-              <input type="email" className="h-11 rounded-lg bg-black/30 border border-white/10 px-3 text-sm outline-none focus:border-white/30" placeholder="E-posta" required />
-              <input className="md:col-span-2 h-11 rounded-lg bg-black/30 border border-white/10 px-3 text-sm outline-none focus:border-white/30" placeholder="Kurum" />
-              <textarea className="md:col-span-2 min-h-28 rounded-lg bg-black/30 border border-white/10 px-3 py-2 text-sm outline-none focus:border-white/30" placeholder="Mesaj" />
-              <div className="md:col-span-2 flex justify-end">
-                <button type="submit" className="inline-flex h-11 items-center justify-center rounded-full bg-white px-6 text-black font-medium hover:bg-white/90 transition-colors">Gönder</button>
-              </div>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </section>

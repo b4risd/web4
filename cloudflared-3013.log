@@ -26,3 +26,19 @@
 2025-08-10T13:26:52Z ERR Connection terminated error="context canceled" connIndex=0
 2025-08-10T13:26:59Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.73
 2025-08-10T13:26:59Z INF Registered tunnel connection connIndex=0 connection=a495ad0c-639d-494f-9985-8db6a1dbb7a7 event=0 ip=198.41.200.73 location=iad07 protocol=quic
+2025-08-10T14:27:22Z ERR Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2025-08-10T14:27:22Z ERR Serve tunnel error error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2025-08-10T14:27:22Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.73
+2025-08-10T14:27:23Z ERR Connection terminated error="timeout: no recent network activity" connIndex=0
+2025-08-10T14:27:26Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:27:26Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:27:26Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:27:27Z ERR Connection terminated error="context canceled" connIndex=0
+2025-08-10T14:27:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:27:48Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:27:48Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:27:54Z ERR Connection terminated error="context canceled" connIndex=0
+2025-08-10T14:28:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:28:40Z ERR Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:28:40Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.200.13
+2025-08-10T14:28:50Z ERR Connection terminated error="context canceled" connIndex=0

@@ -129,90 +129,42 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tier 1 */}
-      <section id="tier1" className="border-t border-white/10 bg-black section-tint-cyan">
+      {/* Top 20 Şirket */}
+      <section id="top20" className="border-t border-white/10 bg-black section-tint-cyan">
         <div className="container-centered py-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Tier‑1: Küresel Şampiyonlar (Defense News Top 100)</h2>
-            <p className="mt-3 text-white/70">ASELSAN, TUSAŞ, ROKETSAN, MKE, ASFAT ve ihracat lideri Baykar'ın öne çıkan rolü.</p>
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Türkiye Savunma Sanayii: Top 20 Şirket</h2>
+            <p className="mt-3 text-white/70">Lider firmalar tek sütunda, kısa özetle.</p>
           </div>
-          <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[{
-              name: "ASELSAN (Sıra: 42)",
-              bullets: [
-                "Savunma elektroniği omurgası: C4I, radar, EH, EO, aviyonik",
-              ]
-            },{
-              name: "TUSAŞ (Sıra: 50)",
-              bullets: [
-                "Hava platformları: KAAN, HÜRJET, ANKA, GÖKBEY, ATAK",
-              ]
-            },{
-              name: "ROKETSAN (Sıra: 71)",
-              bullets: [
-                "Füze/roket ve hava savunma: ATMACA, HİSAR, ÇAKIR",
-              ]
-            },{
-              name: "MKE (Sıra: 84)",
-              bullets: [
-                "Silah ve mühimmat: MPT‑76, BORAN, DENİZHAN",
-              ]
-            },{
-              name: "ASFAT (Sıra: 94)",
-              bullets: [
-                "PN MİLGEM ana yüklenici; ADKG, MEMATT, A400M retrofit",
-              ]
-            },{
-              name: "Baykar (1# ihracatçı)",
-              bullets: [
-                "İnsansız hava platformları: TB2, AKINCI, TB3, KIZILELMA",
-              ]
-            }].map((item) => (
-              <div key={item.name} className="rounded-xl border border-white/12 bg-white/[0.06] p-5 hover:bg-white/[0.08] transition-colors">
-                <h3 className="text-white/90 font-medium">{item.name}</h3>
-                <p className="mt-1 text-xs text-white/70">{item.bullets[0]}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Tier 2 */}
-      <section id="tier2" className="border-t border-white/10 bg-black">
-        <div className="container-centered py-20">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Tier‑2: Ana Yükleniciler ve Sistem Entegratörleri</h2>
-            <p className="mt-3 text-white/70">Platformların beyni ve sinir sistemi: C4I, SYS, simülasyon, denizaltı ve kara sistemleri.</p>
-          </div>
-          <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[{
-              name: "HAVELSAN",
-              bullets: ["ADVENT SYS, simülasyon ve siber güvenlik"]
-            },{
-              name: "STM",
-              bullets: ["MİLGEM/korvet, STM500 ve taktik mini İHA"]
-            },{
-              name: "FNSS",
-              bullets: ["PARS/KAPLAN zırhlı platformlar, ZAHA"]
-            },{
-              name: "Otokar",
-              bullets: ["COBRA/ARMA zırhlı araçlar, ALTAY geliştirme"]
-            },{
-              name: "BMC",
-              bullets: ["KİRPİ/VURAN MRAP, ALTAY seri üretim"]
-            },{
-              name: "Nurol Makina",
-              bullets: ["EJDER YALÇIN ve NMS (YÖRÜK) 4x4"]
-            },{
-              name: "TEI",
-              bullets: ["PD170, TJ300, TF6000/TF10000 motor programları"]
-            },{
-              name: "Alp Havacılık",
-              bullets: ["Rotor/dişli/iniş takımı, F‑135 blisk"]
-            }].map((item) => (
-              <div key={item.name} className="rounded-xl border border-white/12 bg-white/[0.06] p-5 hover:bg-white/[0.08] transition-colors">
-                <h3 className="text-white/90 font-medium">{item.name}</h3>
-                <p className="mt-1 text-xs text-white/70">{item.bullets[0]}</p>
+          <div className="mt-10 max-w-3xl mx-auto space-y-3">
+            {[
+              { name: "ASELSAN (Sıra: 42)", summary: "Savunma elektroniği: C4I, radar, EH, EO, aviyonik" },
+              { name: "TUSAŞ (Sıra: 50)", summary: "Hava platformları: KAAN, HÜRJET, ANKA, GÖKBEY, ATAK" },
+              { name: "ROKETSAN (Sıra: 71)", summary: "Füze/roket, hava savunma: ATMACA, HİSAR, ÇAKIR" },
+              { name: "MKE (Sıra: 84)", summary: "Silah ve mühimmat: MPT‑76, BORAN, DENİZHAN" },
+              { name: "ASFAT (Sıra: 94)", summary: "PN MİLGEM ana yüklenici; ADKG, MEMATT, A400M retrofit" },
+              { name: "Baykar", summary: "İHA/TİHA: TB2, AKINCI, TB3, KIZILELMA" },
+              { name: "HAVELSAN", summary: "ADVENT SYS, simülasyon ve siber güvenlik" },
+              { name: "STM", summary: "MİLGEM/korvet, STM500, taktik mini İHA" },
+              { name: "FNSS", summary: "PARS/KAPLAN platformlar, ZAHA" },
+              { name: "Otokar", summary: "COBRA/ARMA zırhlı, ALTAY geliştirme" },
+              { name: "BMC", summary: "KİRPİ/VURAN MRAP, ALTAY seri üretim" },
+              { name: "Nurol Makina", summary: "EJDER YALÇIN, NMS (YÖRÜK) 4x4" },
+              { name: "TEI", summary: "PD170, TJ300, TF6000/TF10000 motor" },
+              { name: "Alp Havacılık", summary: "Rotor/dişli/iniş takımı, F‑135 blisk" },
+              { name: "MİLSOFT", summary: "Taktik veri linkleri, C4I yazılım" },
+              { name: "Meteksan", summary: "Radar, sonar, veri bağı; ULAQ SİDA" },
+              { name: "TUALCOM", summary: "Veri bağı, telemetri, anti‑jamming GNSS" },
+              { name: "Kale (Kale Arge)", summary: "KTJ‑3200/1750 turbojet, P&W ortaklıkları" },
+              { name: "Lentatek", summary: "KARAYEL ve insansız sistemler" },
+              { name: "PROFEN", summary: "Uydu yer istasyonları ve haberleşme" },
+            ].map((c) => (
+              <div key={c.name} className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
+                <div>
+                  <h3 className="text-white/90 text-sm font-medium">{c.name}</h3>
+                  <p className="text-xs text-white/70 mt-0.5">{c.summary}</p>
+                </div>
+                <span className="text-white/40 text-xs">→</span>
               </div>
             ))}
           </div>

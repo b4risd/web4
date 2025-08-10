@@ -26,7 +26,7 @@ export default function Home() {
         <div className="beam beam--cyan size-[420px] top-20 -right-28 rounded-full animate-float" />
         {/* grid */}
         <div className="absolute inset-0 moving-grid" />
-        <div className="container-centered py-24 md:py-28 relative">
+        <div className="container-centered py-20 md:py-24 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
               <span className="text-glow">Türkiyenin Savunma Sanayi Platformu</span>
@@ -41,14 +41,17 @@ export default function Home() {
               <a className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-black font-medium hover:bg-white/90 transition-colors" href="#contact">İletişime Geç</a>
               <a className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-white/90 hover:bg-white/5 transition-colors" href="#overview">Raporu Oku</a>
             </div>
-            <AITool />
+            {/* AI tool with tighter spacing */}
+            <div className="mt-6">
+              <AITool />
+            </div>
           </div>
         </div>
       </section>
 
       {/* Overview & KPIs (from report) */}
       <section id="overview" className="border-t border-white/10 bg-black section-tint-emerald">
-        <div className="container-centered py-20">
+        <div className="container-centered pt-14 pb-20">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Yönetici Özeti ve Genel Bakış</h2>
             <p className="mt-4 text-white/70">

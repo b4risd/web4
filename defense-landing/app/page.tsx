@@ -138,34 +138,34 @@ export default function Home() {
           </div>
           <div className="mt-10 max-w-3xl mx-auto space-y-3">
             {[
-              { name: "ASELSAN (Sıra: 42)", summary: "Savunma elektroniği: C4I, radar, EH, EO, aviyonik" },
-              { name: "TUSAŞ (Sıra: 50)", summary: "Hava platformları: KAAN, HÜRJET, ANKA, GÖKBEY, ATAK" },
-              { name: "ROKETSAN (Sıra: 71)", summary: "Füze/roket, hava savunma: ATMACA, HİSAR, ÇAKIR" },
-              { name: "MKE (Sıra: 84)", summary: "Silah ve mühimmat: MPT‑76, BORAN, DENİZHAN" },
-              { name: "ASFAT (Sıra: 94)", summary: "PN MİLGEM ana yüklenici; ADKG, MEMATT, A400M retrofit" },
-              { name: "Baykar", summary: "İHA/TİHA: TB2, AKINCI, TB3, KIZILELMA" },
-              { name: "HAVELSAN", summary: "ADVENT SYS, simülasyon ve siber güvenlik" },
-              { name: "STM", summary: "MİLGEM/korvet, STM500, taktik mini İHA" },
-              { name: "FNSS", summary: "PARS/KAPLAN platformlar, ZAHA" },
-              { name: "Otokar", summary: "COBRA/ARMA zırhlı, ALTAY geliştirme" },
-              { name: "BMC", summary: "KİRPİ/VURAN MRAP, ALTAY seri üretim" },
-              { name: "Nurol Makina", summary: "EJDER YALÇIN, NMS (YÖRÜK) 4x4" },
-              { name: "TEI", summary: "PD170, TJ300, TF6000/TF10000 motor" },
-              { name: "Alp Havacılık", summary: "Rotor/dişli/iniş takımı, F‑135 blisk" },
-              { name: "MİLSOFT", summary: "Taktik veri linkleri, C4I yazılım" },
-              { name: "Meteksan", summary: "Radar, sonar, veri bağı; ULAQ SİDA" },
-              { name: "TUALCOM", summary: "Veri bağı, telemetri, anti‑jamming GNSS" },
-              { name: "Kale (Kale Arge)", summary: "KTJ‑3200/1750 turbojet, P&W ortaklıkları" },
-              { name: "Lentatek", summary: "KARAYEL ve insansız sistemler" },
-              { name: "PROFEN", summary: "Uydu yer istasyonları ve haberleşme" },
-            ].map((c) => (
-              <div key={c.name} className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
+              { name: "ASELSAN A.Ş.", category: "Savunma elektroniği", url: "https://www.aselsan.com" },
+              { name: "Türk Havacılık ve Uzay Sanayii (TUSAŞ)", category: "Havacılık ve uzay platformları", url: "https://www.tusas.com" },
+              { name: "ROKETSAN A.Ş.", category: "Roket ve füze sistemleri", url: "https://www.roketsan.com.tr" },
+              { name: "Makine ve Kimya Endüstrisi (MKE) A.Ş.", category: "Silah ve mühimmat", url: "https://www.mke.gov.tr" },
+              { name: "Askeri Fabrika ve Tersane İşletme (ASFAT) A.Ş.", category: "Askeri fabrika/tersane projeleri", url: "https://www.asfat.com.tr" },
+              { name: "Baykar Teknoloji", category: "İnsansız hava araçları (İHA/TİHA)", url: "https://www.baykartech.com" },
+              { name: "HAVELSAN A.Ş.", category: "C4I, SYS, simülasyon ve siber güvenlik", url: "https://www.havelsan.com.tr" },
+              { name: "STM", category: "Askeri deniz platformları, İHA ve siber güvenlik", url: "https://www.stm.com.tr" },
+              { name: "FNSS Savunma Sistemleri A.Ş.", category: "Zırhlı kara araçları", url: "https://www.fnss.com.tr" },
+              { name: "Otokar Otomotiv ve Savunma Sanayi A.Ş.", category: "Taktik tekerlekli zırhlı araçlar", url: "https://www.otokar.com.tr" },
+              { name: "BMC Otomotiv Sanayi ve Ticaret A.Ş.", category: "MRAP ve ALTAY seri üretim", url: "https://www.bmc.com.tr" },
+              { name: "Nurol Makina ve Sanayi A.Ş.", category: "4x4 zırhlı kara araçları", url: "https://www.nurolmakina.com.tr" },
+              { name: "TEI (TUSAŞ Motor Sanayii A.Ş.)", category: "Havacılık motorları", url: "https://www.tei.com.tr" },
+              { name: "Alp Havacılık Sanayi ve Ticaret A.Ş.", category: "Uçuş kritik parçalar ve tahrik sistemleri", url: "https://www.alp.com.tr" },
+              { name: "Sedef Gemi İnşaatı A.Ş.", category: "Askeri gemi inşası", url: "https://www.sedefshipyard.com" },
+              { name: "Anadolu Tersanesi (ADİK)", category: "Askeri gemi inşası (LST/LCT)", url: "https://www.anadolushipyard.com" },
+              { name: "Dearsan Gemi İnşaat Sanayi A.Ş.", category: "Karakol botu/korvet inşası", url: "https://www.dearsan.com" },
+              { name: "Yonca-Onuk Ortaklığı A.O.", category: "Yüksek süratli devriye botları (MRTP)", url: "https://www.yonca-onuk.com" },
+              { name: "Meteksan Savunma Sanayii A.Ş.", category: "Radar, sonar, veri bağı; SİDA", url: "https://www.meteksan.com" },
+              { name: "Sarsılmaz Silah Sanayi A.Ş.", category: "Hafif silahlar ve makineli tüfekler", url: "https://www.sarsilmaz.com" },
+            ].map((c, idx) => (
+              <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
                 <div>
-                  <h3 className="text-white/90 text-sm font-medium">{c.name}</h3>
-                  <p className="text-xs text-white/70 mt-0.5">{c.summary}</p>
+                  <h3 className="text-white/90 text-sm font-medium">{idx + 1}. {c.name}</h3>
+                  <p className="text-xs text-white/70 mt-0.5">{c.category}</p>
                 </div>
-                <span className="text-white/40 text-xs">→</span>
-              </div>
+                <span className="text-white/40 text-xs">↗</span>
+              </a>
             ))}
           </div>
         </div>

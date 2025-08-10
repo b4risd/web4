@@ -8,17 +8,19 @@ export default function Home() {
         <div className="container-centered h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="size-8 rounded bg-white/10 border border-white/20" />
-            <span className="text-sm font-semibold tracking-[0.2em] text-white/90 text-glow">TR DEFENSE ECOSYSTEM</span>
+            <span className="text-sm font-semibold tracking-[0.2em] text-white/90">TR DEFENSE ECOSYSTEM</span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/70">
             <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
             <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
             <a href="#programs" className="hover:text-white transition-colors">Programlar</a>
-            <a href="#tier1" className="hover:text-white transition-colors">Tier‑1</a>
-            <a href="#tier2" className="hover:text-white transition-colors">Tier‑2</a>
-            <a href="#companies" className="hover:text-white transition-colors">Şirketler</a>
+            <a href="#top20" className="hover:text-white transition-colors">Top 20</a>
+            <a href="#architects" className="hover:text-white transition-colors">Mimarlar</a>
             <a href="#contact" className="hover:text-white transition-colors">İletişim</a>
           </nav>
+          <div className="flex items-center gap-3">
+            {/* Theme toggle will render here from layout fixed slot; keeping spacing consistent */}
+          </div>
         </div>
       </header>
 
@@ -439,35 +441,6 @@ export default function Home() {
                 {item}
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Companies */}
-      <section id="companies" className="border-t border-white/10 bg-black">
-        <div className="container-centered py-20">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Türkiye Savunma Sanayii Şirketleri</h2>
-            <p className="mt-3 text-white/70">Öne çıkan üreticiler, entegratörler ve çözüm sağlayıcılar.</p>
-          </div>
-          <div className="relative mt-10 overflow-hidden rounded-2xl border border-white/10 glass-card">
-            <div className="flex gap-4 flex-wrap justify-center p-4">
-              {Array(2)
-                .fill([
-                  "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
-                  "BMC","FNSS","OTOKAR","MKE","TEI","KALE",
-                  "NUROL MAKİNA","KATMERCİLER","VESTEL SAVUNMA","METEKSAN",
-                  "TUALCOM","SDT","MİLSOFT","ALP HAVACILIK",
-                  "ARES TERSANESİ","DEARSAN","YONCA-ONUK","SEFİNE",
-                  "KOÇ SAVUNMA","PROFEN SAVUNMA","ASELSAN KONYA","GÜRSAN",
-                ])
-                .flat()
-                .map((c, i) => (
-                  <div key={`${c}-${i}`} className="h-10 min-w-44 rounded-lg border border-white/10 bg-black/30 flex items-center justify-center text-xs text-white/80">
-                    {c}
-                  </div>
-                ))}
-            </div>
           </div>
         </div>
       </section>

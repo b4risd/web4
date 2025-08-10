@@ -133,3 +133,52 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  ✓ Compiled /favicon.ico in 97ms (343 modules)
  GET /favicon.ico 200 in 130ms
  GET /favicon.ico 200 in 5ms
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m Expected '</', got '}'
+    ,-[[36;1;4m/workspace/defense-landing/app/page.tsx[0m:50:1]
+ [2m47[0m | 
+ [2m48[0m |           {/* marquee logos */}
+ [2m49[0m |           <div className="relative mt-16 overflow-hidden">
+ [2m50[0m |             <div className="flex gap-6 flex-wrap justify-center"}
+    : [35;1m                                                                ^[0m
+ [2m51[0m |               {Array(2)
+ [2m52[0m |                 .fill([
+ [2m53[0m |                   "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m Expected '</', got '}'
+    ,-[[36;1;4m/workspace/defense-landing/app/page.tsx[0m:50:1]
+ [2m47[0m | 
+ [2m48[0m |           {/* marquee logos */}
+ [2m49[0m |           <div className="relative mt-16 overflow-hidden">
+ [2m50[0m |             <div className="flex gap-6 flex-wrap justify-center"}
+    : [35;1m                                                                ^[0m
+ [2m51[0m |               {Array(2)
+ [2m52[0m |                 .fill([
+ [2m53[0m |                   "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+ GET / 500 in 2640ms
+ GET / 500 in 11ms
+ GET / 500 in 13ms
+ GET / 500 in 7ms
+ ✓ Compiled /_error in 265ms (883 modules)
+ ✓ Compiled /_not-found in 173ms (874 modules)
+ GET /_next/static/webpack/923c004b022a4e49.webpack.hot-update.json 404 in 354ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 100ms
+ ✓ Compiled in 161ms (888 modules)
+ ✓ Compiled /favicon.ico in 137ms (524 modules)
+ GET /favicon.ico 200 in 239ms

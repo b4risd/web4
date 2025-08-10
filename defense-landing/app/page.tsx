@@ -47,7 +47,7 @@ export default function Home() {
 
           {/* marquee logos */}
           <div className="relative mt-16 overflow-hidden">
-            <div className="flex gap-6 whitespace-nowrap animate-marquee">
+            <div className="flex gap-6 flex-wrap justify-center">
               {Array(2)
                 .fill([
                   "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
@@ -451,7 +451,7 @@ export default function Home() {
             <p className="mt-3 text-white/70">Öne çıkan üreticiler, entegratörler ve çözüm sağlayıcılar.</p>
           </div>
           <div className="relative mt-10 overflow-hidden rounded-2xl border border-white/10 glass-card">
-            <div className="flex gap-4 whitespace-nowrap animate-marquee p-4">
+            <div className="flex gap-4 flex-wrap justify-center p-4">
               {Array(2)
                 .fill([
                   "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",

@@ -8,7 +8,6 @@ export default function Home() {
       <header className="sticky top-0 z-40 bg-transparent border-0 relative">
         <div className="absolute inset-0 moving-grid pointer-events-none" aria-hidden="true" />
         <div className="container-centered h-16 flex items-center justify-center relative z-10">
-          <img src="/logo/savsa.svg" alt="SAVSA.TR" className="h-5 w-auto absolute left-4 top-1/2 -translate-y-1/2 opacity-90" />
           <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
             <nav className="flex items-center gap-6 text-sm text-white/70">
               <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-4 w-auto"/>

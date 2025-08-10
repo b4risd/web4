@@ -323,10 +323,12 @@ html[data-theme="light"] .moving-grid { opacity: 0.08; }
   position: fixed;
   inset: 0;
   pointer-events: none;
+  z-index: 3;
 }
 .ambient-dot {
   position: absolute;
   border-radius: 9999px;
   background: var(--particle-color);
   box-shadow: 0 0 8px rgba(180,255,232,0.08);
+  mix-blend-mode: screen;
 }

@@ -3,12 +3,14 @@
 :root {
   --background: #0b0b0f; /* deeper neutral */
   --foreground: #e6e7eb;
+  --particle-color: rgba(255,255,255,0.14);
 }
 
 /* Theme modes */
 html[data-theme="light"] {
   --background: #f7f7f8;
   --foreground: #0a0a0a;
+  --particle-color: rgba(0,0,0,0.14);
 }
 
 @theme inline {
@@ -315,3 +317,16 @@ html[data-theme="light"] .hover\:bg-white\/\[0\.08\]:hover { background-color: r
 
 /* Dotted grid visibility adjustment in light mode */
 html[data-theme="light"] .moving-grid { opacity: 0.08; }
+
+/* Ambient particles layer */
+.ambient-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+.ambient-dot {
+  position: absolute;
+  border-radius: 9999px;
+  background: var(--particle-color);
+  box-shadow: 0 0 8px rgba(180,255,232,0.08);
+}

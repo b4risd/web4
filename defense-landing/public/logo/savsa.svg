@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 240 48" fill="none">
+  <rect width="240" height="48" fill="none"/>
+  <g>
+    <!-- Wordmark SAVSA -->
+    <path d="M10 33c0-6 5-8 12-9 6-1 7-2 7-4 0-2-2-3-6-3-4 0-8 1-12 3l-3-7c5-2 10-3 15-3 11 0 17 4 17 11 0 6-5 8-12 9-6 1-7 2-7 4h19v7H10v-8z" fill="#E7FFF6"/>
+    <path d="M79 34l-5 6H60L82 9h8l22 31h-14l-5-6H79zm6-8l-4-6-4 6h8z" fill="#CFFFEA"/>
+    <path d="M116 33c0-6 5-8 12-9 6-1 7-2 7-4 0-2-2-3-6-3-4 0-8 1-12 3l-3-7c5-2 10-3 15-3 11 0 17 4 17 11 0 6-5 8-12 9-6 1-7 2-7 4h19v7h-30v-8z" fill="#A7F3D0"/>
+    <path d="M183 34l-5 6h-14L186 9h8l22 31h-14l-5-6h-14zm6-8l-4-6-4 6h8z" fill="#7DE3D7"/>
+  </g>
+  <!-- Accent marks -->
+  <g opacity="0.7">
+    <circle cx="210" cy="10" r="3" fill="#57C9BE"/>
+    <circle cx="218" cy="10" r="2" fill="#57C9BE"/>
+  </g>
+</svg>

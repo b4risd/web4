@@ -41,23 +41,6 @@ export default function Home() {
               <a className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-white/90 hover:bg-white/5 transition-colors" href="#overview">Raporu Oku</a>
             </div>
           </div>
-
-          {/* marquee logos */}
-          <div className="relative mt-16 overflow-hidden">
-            <div className="flex gap-6 flex-wrap justify-center">
-              {Array(2)
-                .fill([
-                  "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
-                  "BMC","FNSS","OTOKAR","MKE","TEI","KALE",
-                ])
-                .flat()
-                .map((logo, i) => (
-                  <div key={`${logo}-${i}`} className="h-10 min-w-40 rounded border border-white/10 glass-card chip shine flex items-center justify-center text-xs text-white/80">
-                    {logo}
-                  </div>
-                ))}
-            </div>
-          </div>
         </div>
       </section>
 

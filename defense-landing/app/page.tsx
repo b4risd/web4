@@ -181,15 +181,18 @@ export default function Home() {
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[{
               name: "Savunma Sanayii Başkanlığı (SSB)",
-              text: "850+ projeyi yöneten, teknolojik yol haritalarını belirleyen ve yerlileştirmeyi teşvik eden stratejik planlayıcı."
+              text: "850+ projeyi yöneten, teknolojik yol haritalarını belirleyen ve yerlileştirmeyi teşvik eden stratejik planlayıcı.",
+              variant: 'emerald'
             },{
               name: "TSKGV",
-              text: "ASELSAN, TUSAŞ, ROKETSAN, HAVELSAN, İŞBİR, ASPİLSAN'da çoğunluk hissedar; karı yeniden ekosisteme yönlendiren finansal omurga."
+              text: "ASELSAN, TUSAŞ, ROKETSAN, HAVELSAN, İŞBİR, ASPİLSAN'da çoğunluk hissedar; karı yeniden ekosisteme yönlendiren finansal omurga.",
+              variant: 'rose'
             },{
               name: "Sanayi Kümeleri (SAHA/OSSA)",
-              text: "1000'e yakın üye firma ile Avrupa'nın en büyük kümelenmesi; EYDEP, sertifikasyon ve B2B etkinlikleriyle KOBİ'leri ana yüklenicilere bağlar."
+              text: "1000'e yakın üye firma ile Avrupa'nın en büyük kümelenmesi; EYDEP, sertifikasyon ve B2B etkinlikleriyle KOBİ'leri ana yüklenicilere bağlar.",
+              variant: 'cyan'
             }].map((c) => (
-              <div key={c.name} className="rounded-2xl border-gradient-emerald glass-card-strong glass-noise p-6">
+              <div key={c.name} className={"rounded-2xl glass-noise p-6 " + (c.variant==='emerald' ? 'glass-tint-emerald border-gradient-emerald' : c.variant==='rose' ? 'glass-tint-rose border-gradient-rose' : 'glass-tint-cyan border-gradient-cyan')}>
                 <div className="text-sm text-white/60">Kurum</div>
                 <h3 className="mt-1 text-lg font-semibold">{c.name}</h3>
                 <p className="mt-3 text-sm text-white/70">{c.text}</p>

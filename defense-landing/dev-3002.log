@@ -12,3 +12,5 @@
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
  ✓ Compiled /favicon.ico in 234ms (343 modules)
  GET /favicon.ico 200 in 321ms
+ ✓ Compiled in 658ms (555 modules)
+ GET / 200 in 175ms

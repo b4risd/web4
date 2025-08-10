@@ -320,14 +320,14 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Savunma Sanayinde Güncel Çalışmalar</h2>
             <p className="mt-3 text-white/70">Güncel bilgiler, Ar‑Ge çalışmaları ve sektör gelişmeleri.</p>
           </div>
-          <div className="mt-10 grid md:grid-cols-2 gap-6">
+          <div className="mt-8 mx-auto max-w-6xl grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               "https://www.youtube.com/embed/nbDsUKlRvP0",
               "https://www.youtube.com/embed/SA0ObMNguio",
               "https://www.youtube.com/embed/qqBOAC4tTh8",
               "https://www.youtube.com/embed/P90RCdAJ5ng",
             ].map((src) => (
-              <div key={src} className="rounded-2xl border border-white/10 bg-white/[0.06] aspect-video overflow-hidden">
+              <div key={src} className="rounded-xl border border-white/10 bg-white/[0.06] aspect-video overflow-hidden">
                 <iframe
                   className="w-full h-full"
                   src={`${src}`}

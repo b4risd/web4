@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <div className="font-sans min-h-screen">
       {/* Navbar */}
-      <header className="sticky top-0 z-40 bg-transparent border-0">
-        <div className="container-centered h-16 flex items-center justify-center">
+      <header className="sticky top-0 z-40 bg-transparent border-0 relative">
+        <div className="absolute inset-0 moving-grid pointer-events-none" aria-hidden="true" />
+        <div className="container-centered h-16 flex items-center justify-center relative z-10">
           <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
             <nav className="flex items-center gap-6 text-sm text-white/70">
               <a href="#overview" className="hover:text-white transition-colors">Rapor</a>

@@ -9,22 +9,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Aegis Defense | Modern Savunma Teknolojileri",
+  title: "Savunma Sanayi Şirketleri - Türkiye & Global | SAVSA.TR",
   description:
-    "Aegis Defense: Komuta-kontrol, ISR, siber güvenlik ve elektronik harp çözümleri ile savunma sanayinin geleceğini şekillendirir.",
+    "SAVSA.TR: Türkiye'nin ve dünyanın önde gelen savunma sanayi şirketlerini keşfedin. Teknoloji, inovasyon ve milli güvenlik odaklı içerikler.",
   icons: { icon: "/favicon.ico" },
   openGraph: {
-    title: "Aegis Defense | Modern Savunma Teknolojileri",
+    title: "Savunma Sanayi Şirketleri - Türkiye & Global | SAVSA.TR",
     description:
-      "Komuta-kontrol, ISR, siber güvenlik ve elektronik harp çözümleri ile savunma sanayinin geleceğini şekillendirir.",
+      "Türkiye ve global savunma sanayi şirketleri, programlar ve raporlar. SAVSA.TR ile güncel bilgileri keşfedin.",
     type: "website",
     locale: "tr_TR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aegis Defense | Modern Savunma Teknolojileri",
+    title: "Savunma Sanayi Şirketleri - Türkiye & Global | SAVSA.TR",
     description:
-      "Komuta-kontrol, ISR, siber güvenlik ve elektronik harp çözümleri ile savunma sanayinin geleceğini şekillendirir.",
+      "Savunma sanayi şirketleri ve ekosistemi hakkında güncel bilgiler için SAVSA.TR",
   },
 };
 

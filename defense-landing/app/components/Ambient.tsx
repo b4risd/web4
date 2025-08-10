@@ -1,22 +1,21 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 type Dot = { id: number; size: number; top: number; left: number; dx: number; dy: number };
 
 export default function Ambient(): JSX.Element {
   const [dots, setDots] = useState<Dot[]>([]);
-  const count = 14;
+  const count = 28;
 
   useEffect(() => {
-    // Initialize random dots
     const init: Dot[] = Array.from({ length: count }).map((_, i) => ({
       id: i,
-      size: 2 + Math.random() * 3,
+      size: 2 + Math.random() * 4,
       top: Math.random() * 100,
       left: Math.random() * 100,
-      dx: (Math.random() - 0.5) * 0.06,
-      dy: (Math.random() - 0.5) * 0.06,
+      dx: (Math.random() - 0.5) * 0.12,
+      dy: (Math.random() - 0.5) * 0.12,
     }));
     setDots(init);
 
@@ -46,8 +45,8 @@ export default function Ambient(): JSX.Element {
           key={d.id}
           className="ambient-dot"
           style={{ top: `${d.top}%`, left: `${d.left}%`, width: d.size, height: d.size }}
-        />)
-      )}
+        />
+      ))}
     </div>
   );
 }

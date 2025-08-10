@@ -421,11 +421,11 @@ export default function Home() {
       <section id="products" className="border-t border-white/10 bg-black">
         <div className="container-centered py-20 grid lg:grid-cols-2 gap-10 items-center">
           <div className="relative">
-            <div className="rounded-2xl border border-white/10 bg-white/[0.06] aspect-video flex items-center justify-center text-white/70 backdrop-blur-md">
-              Görev Sistemi Ekranı
+            <div className="rounded-2xl border border-white/10 bg-white/[0.06] aspect-video flex items-center justify-center text-white/70 backdrop-blur-md overflow-hidden">
+              <img src="/defense/aircraft-hud.svg" alt="HUD" className="w-full h-full object-cover opacity-90"/>
             </div>
-            <div className="absolute -bottom-6 -right-6 w-40 h-28 rounded-xl border border-white/10 bg-white/[0.08] backdrop-blur-md hidden md:flex items-center justify-center text-xs text-white/70">
-              Taktik Harita Modülü
+            <div className="absolute -bottom-6 -right-6 w-40 h-28 rounded-xl border border-white/10 bg-white/[0.08] backdrop-blur-md hidden md:flex items-center justify-center text-xs text-white/70 overflow-hidden">
+              <img src="/defense/radar-mini.svg" alt="Radar" className="w-full h-full object-cover opacity-90"/>
             </div>
           </div>
           <div className="max-w-xl mx-auto lg:mx-0">

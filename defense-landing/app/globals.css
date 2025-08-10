@@ -350,3 +350,9 @@ html[data-theme="light"] .moving-grid { opacity: 0.08; }
 
 /* Light theme tweak for outline */
 html[data-theme="light"] .nav-pulse::before { opacity: .25; }
+
+.brand-outline {
+  text-shadow:
+    0 0 1px rgba(0,0,0,0.45),
+    0 0 6px rgba(0,0,0,0.25);
+}

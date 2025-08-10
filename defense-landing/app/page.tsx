@@ -38,7 +38,7 @@ export default function Home() {
               Türkiye'nin Savunma Sanayi Ekosistemi
             </h1>
             <p className="mt-5 text-white/70 text-lg">
-              C2/C4ISR, sensör füzyonu, elektronik harp ve güvenli taktik ağ çözümleri. Kara, hava, deniz ve siber alanlarda müşterek harekât için tasarlandı.
+              Türkiye'nin önde gelen savunma sanayi şirketlerini keşfedin. Teknoloji, inovasyon ve milli güvenlik alanında faaliyet gösteren kuruluşları inceleyin.
             </p>
             <div className="mt-9 flex flex-col sm:flex-row gap-3 justify-center">
               <a className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-black font-medium hover:bg-white/90 transition-colors" href="#contact">İletişime Geç</a>
@@ -55,7 +55,7 @@ export default function Home() {
       {/* Overview & KPIs (from report) */}
       <section id="overview" className="border-t border-white/10 bg-black section-tint-emerald">
         <div className="container-centered pt-14 pb-20">
-          <div className="max-w-4xl mx_auto text-center">
+          <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Yönetici Özeti ve Genel Bakış</h2>
             <p className="mt-4 text-white/70">
               Türk savunma ve havacılık sanayi, dışa bağımlılıktan küresel rekabete evrilen stratejik bir dönüşüm hikâyesidir. 2002'de 1 milyar $ cirodan,
@@ -147,7 +147,7 @@ export default function Home() {
               { name: "Meteksan Savunma Sanayi A.Ş.", category: "Radar, sonar, veri bağı; SİDA", url: "https://www.meteksan.com" },
               { name: "Sarsılmaz Silah Sanayi A.Ş.", category: "Hafif silahlar ve makineli tüfekler", url: "https://www.sarsilmaz.com" },
             ].map((c, idx) => (
-              <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg_white/[0.08] transition-colors">
+              <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
                 <div>
                   <h3 className="text-white/90 text-sm font-medium">{idx + 1}. {c.name}</h3>
                   <p className="text-xs text-white/70 mt-0.5">{c.category}</p>

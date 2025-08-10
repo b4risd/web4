@@ -21,3 +21,5 @@
 2025-08-10T10:40:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.7
 2025/08/10 10:40:40 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
 2025-08-10T10:40:40Z INF Registered tunnel connection connIndex=0 connection=2f084210-49f5-44c2-92cf-2f9ba0654b2d event=0 ip=198.41.192.7 location=iad09 protocol=quic
+2025-08-10T11:33:35Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:3003
+2025-08-10T11:33:35Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=https://judge-temperatures-foundations-gently.trycloudflare.com/ event=0 ip=198.41.192.7 type=http

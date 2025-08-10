@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 type ThemeMode = "dark" | "light";
 
-export default function ThemeToggle(): JSX.Element {
+export default function ThemeToggle() {
   const [theme, setTheme] = useState<ThemeMode>("dark");
 
   useEffect(() => {

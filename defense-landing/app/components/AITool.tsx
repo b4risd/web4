@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-export default function AITool(): JSX.Element {
+export default function AITool() {
   const [value, setValue] = useState("");
 
   const chatUrl = useMemo(() => {
@@ -17,7 +17,7 @@ export default function AITool(): JSX.Element {
       <div className="mb-3 text-center">
         <h3 className="text-xl md:text-2xl font-semibold">Savunma Sanayi Akıllı Soru Motoru</h3>
         <p className="mt-2 text-sm text-white/70">
-          Sorunuzu yazın, ChatGPT üzerinde açın. Yakında özel GPT’ye bağlanacak.
+          Sorunuzu yazın, ChatGPT üzerinde açın. Yakında özel GPT&rsquo;ye bağlanacak.
         </p>
       </div>
 
@@ -33,7 +33,7 @@ export default function AITool(): JSX.Element {
           className="w-full rounded-xl bg-black/30 border border-white/15 px-4 py-3 text-sm outline-none focus:border-white/30 resize-y"
         />
         <div className="mt-3 flex items-center justify-between gap-3">
-          <span className="text-xs text-white/60">Dilediğiniz promptu yazın ve ChatGPT'de açın.</span>
+          <span className="text-xs text-white/60">Dilediğiniz promptu yazın ve ChatGPT&rsquo;de açın.</span>
           <a
             href={disabled ? undefined : chatUrl}
             target="_blank"
@@ -43,7 +43,7 @@ export default function AITool(): JSX.Element {
               disabled ? "bg-white/20 text-white/50 cursor-not-allowed" : "bg-white text-black hover:bg-white/90"
             }`}
           >
-            ChatGPT’de Aç ↗
+            ChatGPT&rsquo;de Aç ↗
           </a>
         </div>
       </div>

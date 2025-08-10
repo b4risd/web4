@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 type Dot = { id: number; size: number; top: number; left: number; dx: number; dy: number };
 
-export default function Ambient(): JSX.Element {
+export default function Ambient() {
   const [dots, setDots] = useState<Dot[]>([]);
   const count = 28;
 

@@ -56,3 +56,4 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 }
  GET / 500 in 249ms
  GET /favicon.ico 200 in 31ms
+[?25h

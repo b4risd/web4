@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import AITool from "./components/AITool";
 
@@ -38,7 +39,7 @@ export default function Home() {
               Türkiye'nin Savunma Sanayi Ekosistemi
             </h1>
             <p className="mt-5 text-white/70 text-lg">
-              Türkiye'nin önde gelen savunma sanayi şirketlerini keşfedin. Teknoloji, inovasyon ve milli güvenlik alanında faaliyet gösteren kuruluşları inceleyin.
+              C2/C4ISR, sensör füzyonu, elektronik harp ve güvenli taktik ağ çözümleri. Kara, hava, deniz ve siber alanlarda müşterek harekât için tasarlandı.
             </p>
             <div className="mt-9 flex flex-col sm:flex-row gap-3 justify-center">
               <a className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-black font-medium hover:bg-white/90 transition-colors" href="#contact">İletişime Geç</a>
@@ -58,7 +59,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Yönetici Özeti ve Genel Bakış</h2>
             <p className="mt-4 text-white/70">
-              Türk savunma ve havacılık sanayii, dışa bağımlılıktan küresel rekabete evrilen stratejik bir dönüşüm hikâyesidir. 2002'de 1 milyar $ cirodan,
+              Türk savunma ve havacılık sanayi, dışa bağımlılıktan küresel rekabete evrilen stratejik bir dönüşüm hikâyesidir. 2002'de 1 milyar $ cirodan,
               2024'te 15 milyar $ üzeri seviyeye; ihracatta ise 248 milyon $'dan 2024'te 7.1 milyar $'a ulaşarak sürdürülebilir bir büyüme yakalamıştır.
               2028 hedefleri 26 milyar $ ciro ve 11 milyar $ ihracattır.
             </p>
@@ -179,9 +180,9 @@ export default function Home() {
               name: "Sanayi Kümeleri (SAHA/OSSA)",
               text: "1000'e yakın üye firma ile Avrupa'nın en büyük kümelenmesi; EYDEP, sertifikasyon ve B2B etkinlikleriyle KOBİ'leri ana yüklenicilere bağlar.",
               variant: 'cyan'
-                          }].map((c) => (
-               <div key={c.name} className="rounded-2xl glass-noise p-6 glass-tint-cyan border-gradient-cyan">
-                 <div className="text-sm text-white/60">Kurum</div>
+            }].map((c) => (
+              <div key={c.name} className="rounded-2xl glass-noise p-6 glass-tint-cyan border-gradient-cyan">
+                <div className="text-sm text-white/60">Kurum</div>
                 <h3 className="mt-1 text-lg font-semibold">{c.name}</h3>
                 <p className="mt-3 text-sm text-white/70">{c.text}</p>
               </div>

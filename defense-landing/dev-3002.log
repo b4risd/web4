@@ -51,3 +51,4 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  ✓ Compiled in 319ms (555 modules)
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/workspace/defense-landing/.next/cache/webpack/server-development/0.pack.gz_' -> '/workspace/defense-landing/.next/cache/webpack/server-development/0.pack.gz'
  ✓ Compiled in 530ms (555 modules)
+[?25h

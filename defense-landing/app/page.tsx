@@ -5,12 +5,8 @@ export default function Home() {
     <div className="font-sans min-h-screen">
       {/* Navbar */}
       <header className="sticky top-0 z-40 border-b border-white/10 bg-black/70 backdrop-blur">
-        <div className="container-centered h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="size-8 rounded bg-white/10 border border-white/20" />
-            <span className="text-sm font-semibold tracking-[0.2em] text-white/90">TR DEFENSE ECOSYSTEM</span>
-          </div>
-          <nav className="hidden md:flex items-center gap-8 text-sm text-white/70">
+        <div className="container-centered h-16 flex items-center justify-center">
+          <nav className="flex items-center gap-8 text-sm text-white/70">
             <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
             <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
             <a href="#programs" className="hover:text-white transition-colors">Programlar</a>
@@ -18,9 +14,6 @@ export default function Home() {
             <a href="#architects" className="hover:text-white transition-colors">Mimarlar</a>
             <a href="#contact" className="hover:text-white transition-colors">İletişim</a>
           </nav>
-          <div className="flex items-center gap-3">
-            {/* Theme toggle will render here from layout fixed slot; keeping spacing consistent */}
-          </div>
         </div>
       </header>
 

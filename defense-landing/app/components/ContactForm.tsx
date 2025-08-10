@@ -4,6 +4,8 @@ import { useState } from "react";
 
 type ApiResponse = { ok: boolean; id?: string; error?: string };
 
+const isStaticExport = typeof process !== "undefined" && process.env.NEXT_RUNTIME !== "edge" && process.env.NEXT_PUBLIC_STATIC_MODE === "1";
+
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -22,13 +24,24 @@ export default function ContactForm() {
     setSuccess(null);
     setError(null);
     try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, company, message }),
-      });
-      const data = (await res.json()) as ApiResponse;
-      if (!res.ok || !data.ok) throw new Error(data.error || "Gönderim başarısız");
+      if (isStaticExport) {
+        const form = new FormData();
+        form.append("name", name);
+        form.append("email", email);
+        form.append("company", company);
+        form.append("message", message);
+        const res = await fetch("/contact.php", { method: "POST", body: form });
+        const data = (await res.json()) as ApiResponse;
+        if (!res.ok || !data.ok) throw new Error(data.error || "Gönderim başarısız");
+      } else {
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, email, company, message }),
+        });
+        const data = (await res.json()) as ApiResponse;
+        if (!res.ok || !data.ok) throw new Error(data.error || "Gönderim başarısız");
+      }
       setSuccess("Mesajınız alındı. En kısa sürede dönüş yapacağız.");
       setName(""); setEmail(""); setCompany(""); setMessage("");
     } catch (err) {

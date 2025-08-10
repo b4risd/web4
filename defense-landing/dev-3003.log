@@ -7,3 +7,8 @@
  ○ Compiling / ...
  ✓ Compiled / in 2.5s (564 modules)
  HEAD / 200 in 2805ms
+ GET / 200 in 110ms
+ ⚠ Cross origin request detected from judge-temperatures-foundations-gently.trycloudflare.com to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 212ms (343 modules)
+ GET /favicon.ico 200 in 305ms

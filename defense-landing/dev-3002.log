@@ -23,3 +23,5 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /_next/static/webpack/872628b329c4ed4b.webpack.hot-update.json 404 in 358ms
  ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
  GET / 200 in 90ms
+ ✓ Compiled /favicon.ico in 101ms (344 modules)
+ GET /favicon.ico 200 in 187ms

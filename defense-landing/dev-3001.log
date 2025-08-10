@@ -286,3 +286,7 @@ Import trace for requested module:
  ✓ Compiled /favicon.ico in 98ms (441 modules)
  GET /favicon.ico 200 in 169ms
  GET /favicon.ico 200 in 7ms
+ GET / 200 in 176ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 82ms
+ GET /favicon.ico 200 in 7ms

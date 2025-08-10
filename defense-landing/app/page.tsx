@@ -191,9 +191,9 @@ export default function Home() {
               name: "Sanayi Kümeleri (SAHA/OSSA)",
               text: "1000'e yakın üye firma ile Avrupa'nın en büyük kümelenmesi; EYDEP, sertifikasyon ve B2B etkinlikleriyle KOBİ'leri ana yüklenicilere bağlar.",
               variant: 'cyan'
-            }].map((c) => (
-              <div key={c.name} className={"rounded-2xl glass-noise p-6 " + (c.variant==='emerald' ? 'glass-tint-emerald border-gradient-emerald' : c.variant==='rose' ? 'glass-tint-rose border-gradient-rose' : 'glass-tint-cyan border-gradient-cyan')}>
-                <div className="text-sm text-white/60">Kurum</div>
+                          }].map((c) => (
+               <div key={c.name} className="rounded-2xl glass-noise p-6 glass-tint-cyan border-gradient-cyan">
+                 <div className="text-sm text-white/60">Kurum</div>
                 <h3 className="mt-1 text-lg font-semibold">{c.name}</h3>
                 <p className="mt-3 text-sm text-white/70">{c.text}</p>
               </div>

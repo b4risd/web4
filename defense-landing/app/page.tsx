@@ -10,7 +10,7 @@ export default function Home() {
         <div className="container-centered h-16 flex items-center justify-center relative z-10">
           <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
             <nav className="flex items-center gap-6 text-sm text-white/70">
-              <span className="text-base" aria-label="Türkiye">🇹🇷</span>
+              <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-4 w-auto"/>
               <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
               <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
               <a href="#programs" className="hover:text-white transition-colors">Programlar</a>

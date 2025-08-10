@@ -376,3 +376,14 @@ html[data-theme="light"] .nav-pulse::before { opacity: .25; }
   background-clip: text;
   color: transparent;
 }
+
+/* Fixed sizing for the hero heading so h1→h2 does not change visuals */
+.hero-heading {
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .hero-heading { font-size: 60px; }
+}

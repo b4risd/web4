@@ -441,9 +441,26 @@ export default function Home() {
           </div>
           <div className="mt-8 max-w-3xl mx-auto divide-y divide-white/10 rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md">
             {[
-              ["Askerî standart uyumluluk", "MIL-STD-810G ve MIL-STD-461F gereksinimlerini karşılayan saha konfigürasyonları sunuyoruz."],
-              ["Veri güvenliği", "Veri şifreleme, imzalama ve anahtar yönetimi için HSM ve PKI entegrasyonlarımız mevcuttur."],
-              ["Entegrasyon", "Mevcut C2/C4ISR sistemleriyle ara yüz sağlayan API ve mesajlaşma katmanı içerir."],
+              [
+                "Türkiye'nin savunma sanayii ihracatındaki ana itici güç nedir?",
+                "İnsansız sistemler (özellikle S/İHA'lar), roket‑füze ve deniz platformları başlıca lokomotiflerdir. 2024'te 7.1B$ ile ihracat rekoru kırıldı; Baykar, TUSAŞ ve deniz projeleri (MİLGEM) öne çıkıyor."
+              ],
+              [
+                "KAAN, HÜRJET, GÖKBEY gibi projeler ekosisteme nasıl etki ediyor?",
+                "Bu platformlar; aviyonik, radar (AESA), güç aktarma ve yazılım ekosisteminde yüzlerce KOBİ'yi besleyerek teknoloji tabanını genişletiyor; Ar‑Ge ve nitelikli istihdamı artırıyor."
+              ],
+              [
+                "Hangi standart ve sertifikasyonlar kritik?",
+                "Askerî dayanım için MIL‑STD‑810/461, yazılım/havacılık için DO‑178C, üretim kalitesi için AS9100, kripto için FIPS 140‑3 ve güvenli geliştirme süreçleri."
+              ],
+              [
+                "Tedarik zincirinde yerlileşme oranı hangi seviyede?",
+                "%20'lerden %80+'a yükseldi. Ancak motor, transmisyon ve ileri sensörlerde atılım ihtiyacı devam ediyor; TF6000/TF10000, KTJ‑3200/1750 gibi projeler bu açığı hedefliyor."
+              ],
+              [
+                "Şirket seçerken nelere bakılmalı?",
+                "Program referansları (MİLGEM, KAAN vb.), uluslararası sertifikalar (AS9100, NADCAP), tedarik sürekliliği, siber‑fiziksel güvenlik olgunluğu ve ihracat uyum (ITAR/ML) kriterleri."
+              ],
             ].map(([q, a]) => (
               <details key={q} className="group open:bg-white/[0.03]">
                 <summary className="cursor-pointer list-none p-4 text-sm text-white/80 group-open:text-white">

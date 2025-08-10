@@ -27,11 +27,11 @@ export default function Home() {
         <div className="beam beam--emerald size-[560px] -top-40 -left-20 rounded-full animate-pulse-soft" />
         <div className="beam beam--cyan size-[420px] top-20 -right-28 rounded-full animate-float" />
         {/* grid */}
-        <div className="absolute inset-0 opacity-[0.12]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.6) 1px, transparent 1px)", backgroundSize: "24px 24px" }} />
+        <div className="absolute inset-0 moving-grid" />
         <div className="container-centered py-24 md:py-28 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
-              <span className="text-glow shine-text">Türkiyenin Savunma Sanayi Platformu</span>
+              <span className="text-glow">Türkiyenin Savunma Sanayi Platformu</span>
             </div>
             <h1 className="mt-8 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
               Türkiye'nin Savunma Sanayi Ekosistemi
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Overview & KPIs (from report) */}
-      <section id="overview" className="border-t border-white/10 bg-black">
+      <section id="overview" className="border-t border-white/10 bg-black section-tint-emerald">
         <div className="container-centered py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Yönetici Özeti ve Genel Bakış</h2>
@@ -130,7 +130,7 @@ export default function Home() {
       </section>
 
       {/* Tier 1 */}
-      <section id="tier1" className="border-t border-white/10 bg-black">
+      <section id="tier1" className="border-t border-white/10 bg-black section-tint-cyan">
         <div className="container-centered py-20">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Tier‑1: Küresel Şampiyonlar (Defense News Top 100)</h2>
@@ -283,7 +283,7 @@ export default function Home() {
               name: "Sanayi Kümeleri (SAHA/OSSA)",
               text: "1000'e yakın üye firma ile Avrupa'nın en büyük kümelenmesi; EYDEP, sertifikasyon ve B2B etkinlikleriyle KOBİ'leri ana yüklenicilere bağlar."
             }].map((c) => (
-              <div key={c.name} className="rounded-2xl border border-white/10 bg-white/[0.08] backdrop-blur-md p-6">
+              <div key={c.name} className="rounded-2xl border-gradient-emerald backdrop-blur-md p-6">
                 <div className="text-sm text-white/60">Kurum</div>
                 <h3 className="mt-1 text-lg font-semibold">{c.name}</h3>
                 <p className="mt-3 text-sm text-white/70">{c.text}</p>

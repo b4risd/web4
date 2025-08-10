@@ -118,13 +118,13 @@ export default function Home() {
       <section id="top20" className="border-t border-white/10 bg-black section-tint-cyan">
         <div className="container-centered py-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Türkiye Savunma Sanayii: Top 20 Şirket</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Türkiye Savunma Sanayi: Top 20 Şirket</h2>
             <p className="mt-3 text-white/70">Lider firmalar tek sütunda, kısa özetle.</p>
           </div>
           <div className="mt-10 max-w-3xl mx-auto space-y-3">
             {[
               { name: "ASELSAN A.Ş.", category: "Savunma elektroniği", url: "https://www.aselsan.com" },
-              { name: "Türk Havacılık ve Uzay Sanayii (TUSAŞ)", category: "Havacılık ve uzay platformları", url: "https://www.tusas.com" },
+              { name: "Türk Havacılık ve Uzay Sanayi (TUSAŞ)", category: "Havacılık ve uzay platformları", url: "https://www.tusas.com" },
               { name: "ROKETSAN A.Ş.", category: "Roket ve füze sistemleri", url: "https://www.roketsan.com.tr" },
               { name: "Makine ve Kimya Endüstrisi (MKE) A.Ş.", category: "Silah ve mühimmat", url: "https://www.mke.gov.tr" },
               { name: "Askeri Fabrika ve Tersane İşletme (ASFAT) A.Ş.", category: "Askeri fabrika/tersane projeleri", url: "https://www.asfat.com.tr" },
@@ -135,13 +135,13 @@ export default function Home() {
               { name: "Otokar Otomotiv ve Savunma Sanayi A.Ş.", category: "Taktik tekerlekli zırhlı araçlar", url: "https://www.otokar.com.tr" },
               { name: "BMC Otomotiv Sanayi ve Ticaret A.Ş.", category: "MRAP ve ALTAY seri üretim", url: "https://www.bmc.com.tr" },
               { name: "Nurol Makina ve Sanayi A.Ş.", category: "4x4 zırhlı kara araçları", url: "https://www.nurolmakina.com.tr" },
-              { name: "TEI (TUSAŞ Motor Sanayii A.Ş.)", category: "Havacılık motorları", url: "https://www.tei.com.tr" },
+              { name: "TEI (TUSAŞ Motor Sanayi A.Ş.)", category: "Havacılık motorları", url: "https://www.tei.com.tr" },
               { name: "Alp Havacılık Sanayi ve Ticaret A.Ş.", category: "Uçuş kritik parçalar ve tahrik sistemleri", url: "https://www.alp.com.tr" },
               { name: "Sedef Gemi İnşaatı A.Ş.", category: "Askeri gemi inşası", url: "https://www.sedefshipyard.com" },
               { name: "Anadolu Tersanesi (ADİK)", category: "Askeri gemi inşası (LST/LCT)", url: "https://www.anadolushipyard.com" },
               { name: "Dearsan Gemi İnşaat Sanayi A.Ş.", category: "Karakol botu/korvet inşası", url: "https://www.dearsan.com" },
               { name: "Yonca-Onuk Ortaklığı A.O.", category: "Yüksek süratli devriye botları (MRTP)", url: "https://www.yonca-onuk.com" },
-              { name: "Meteksan Savunma Sanayii A.Ş.", category: "Radar, sonar, veri bağı; SİDA", url: "https://www.meteksan.com" },
+              { name: "Meteksan Savunma Sanayi A.Ş.", category: "Radar, sonar, veri bağı; SİDA", url: "https://www.meteksan.com" },
               { name: "Sarsılmaz Silah Sanayi A.Ş.", category: "Hafif silahlar ve makineli tüfekler", url: "https://www.sarsilmaz.com" },
             ].map((c, idx) => (
               <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
@@ -165,7 +165,7 @@ export default function Home() {
           </div>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[{
-              name: "Savunma Sanayii Başkanlığı (SSB)",
+              name: "Savunma Sanayi Başkanlığı (SSB)",
               text: "850+ projeyi yöneten, teknolojik yol haritalarını belirleyen ve yerlileştirmeyi teşvik eden stratejik planlayıcı.",
               variant: 'emerald'
             },{

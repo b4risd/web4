@@ -141,53 +141,36 @@ export default function Home() {
               name: "ASELSAN (Sıra: 42)",
               bullets: [
                 "Savunma elektroniği omurgası: C4I, radar, EH, EO, aviyonik",
-                "2023 savunma cirosu: 2.986 milyar $ (+%29)",
-                "KAAN için AESA radar MURAD‑600A ve BÜRFİS; ALTAY AKKOR; TCG ANADOLU Savaş Yönetim Sistemi",
-                "ASELFLIR‑500: 16+ ülkeye ihracat",
               ]
             },{
               name: "TUSAŞ (Sıra: 50)",
               bullets: [
-                "Hava platformlarında milli şampiyon: uçak, helikopter, İHA",
-                "2023 savunma cirosu: 2.205 milyar $ (+%49)",
-                "Projeler: KAAN, HÜRJET, ANKA/ANKA‑3, GÖKBEY, ATAK",
+                "Hava platformları: KAAN, HÜRJET, ANKA, GÖKBEY, ATAK",
               ]
             },{
               name: "ROKETSAN (Sıra: 71)",
               bullets: [
-                "Füze ve roket sistemleri, hava savunma (HİSAR), zırh çözümleri",
-                "2023 savunma cirosu: 1.256 milyar $",
-                "ATMACA, UMTAS/OMTAS, ÇAKIR yeni nesil seyir füzesi",
+                "Füze/roket ve hava savunma: ATMACA, HİSAR, ÇAKIR",
               ]
             },{
               name: "MKE (Sıra: 84)",
               bullets: [
-                "Silah ve mühimmat ana üreticisi, 2021'den beri A.Ş.",
-                "2023 savunma cirosu: 905.75 milyon $ (+%64)",
-                "MPT‑76, BORAN, DENİZHAN; ALTAY 120 mm ana silah",
+                "Silah ve mühimmat: MPT‑76, BORAN, DENİZHAN",
               ]
             },{
               name: "ASFAT (Sıra: 94)",
               bullets: [
-                "Askeri fabrika/tersane tecrübesiyle ihracat odaklı yapı",
-                "2023 savunma cirosu: 656.88 milyon $",
-                "PN MİLGEM ana yüklenici; ADKG; MEMATT; A400M retrofit",
+                "PN MİLGEM ana yüklenici; ADKG, MEMATT, A400M retrofit",
               ]
             },{
-              name: "Baykar (Liste dışı, 1# ihracatçı)",
+              name: "Baykar (1# ihracatçı)",
               bullets: [
-                "2023 ihracat: 1.766 milyar $; 34+ ülkeye ürün",
-                "Ürünler: TB2, AKINCI, TB3, KIZILELMA, KEMANKEŞ",
+                "İnsansız hava platformları: TB2, AKINCI, TB3, KIZILELMA",
               ]
             }].map((item) => (
-              <div key={item.name} className="rounded-2xl border border-white/10 glass-card shine p-6">
-                <div className="text-sm text-white/60">Şirket</div>
-                <h3 className="mt-1 text-lg font-semibold">{item.name}</h3>
-                <ul className="mt-3 space-y-2 text-sm text-white/70">
-                  {item.bullets.map((b) => (
-                    <li key={b}>• {b}</li>
-                  ))}
-                </ul>
+              <div key={item.name} className="rounded-xl border border-white/12 bg-white/[0.06] p-5 hover:bg-white/[0.08] transition-colors">
+                <h3 className="text-white/90 font-medium">{item.name}</h3>
+                <p className="mt-1 text-xs text-white/70">{item.bullets[0]}</p>
               </div>
             ))}
           </div>
@@ -204,61 +187,32 @@ export default function Home() {
           <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[{
               name: "HAVELSAN",
-              bullets: [
-                "ADVENT Savaş Yönetim Sistemi (ağ destekli)",
-                "HELSİM, tam kapsamlı simülatörler; siber güvenlik",
-                "İhracat: Pakistan, Ukrayna, Endonezya, Şili",
-              ]
+              bullets: ["ADVENT SYS, simülasyon ve siber güvenlik"]
             },{
               name: "STM",
-              bullets: [
-                "MİLGEM ve korvet projeleri; İ‑sınıfı ana yüklenici",
-                "KARGU, TOGAN, BOYGA taktik mini İHA ailesi",
-                "STM500 mini denizaltı: ilk mukavim tekne bloğu (2024)",
-              ]
+              bullets: ["MİLGEM/korvet, STM500 ve taktik mini İHA"]
             },{
               name: "FNSS",
-              bullets: [
-                "PARS 4x4/6x6/8x8; KAPLAN; ZAHA amfibi araç",
-                "TEBER, SANCAK kule sistemleri; GÖLGE SÜVARİ İKA",
-              ]
+              bullets: ["PARS/KAPLAN zırhlı platformlar, ZAHA"]
             },{
               name: "Otokar",
-              bullets: [
-                "COBRA, ARMA taktik tekerlekli zırhlı aileleri",
-                "ALTAY prototip tasarım/geliştirme ana yüklenici",
-              ]
+              bullets: ["COBRA/ARMA zırhlı araçlar, ALTAY geliştirme"]
             },{
               name: "BMC",
-              bullets: [
-                "KİRPİ, VURAN MRAP; ALTAY seri üretim ana yüklenici",
-              ]
+              bullets: ["KİRPİ/VURAN MRAP, ALTAY seri üretim"]
             },{
               name: "Nurol Makina",
-              bullets: [
-                "EJDER YALÇIN 4x4, NMS (YÖRÜK) 4x4; modüler görev",
-              ]
+              bullets: ["EJDER YALÇIN ve NMS (YÖRÜK) 4x4"]
             },{
               name: "TEI",
-              bullets: [
-                "PD170 (İHA), TJ300 (füze), TF6000/TF10000 (turbofan)",
-                "GE F110/LEAP için kritik parça üretimi",
-              ]
+              bullets: ["PD170, TJ300, TF6000/TF10000 motor programları"]
             },{
               name: "Alp Havacılık",
-              bullets: [
-                "Rotor/dinamik parçalar, dişli kutuları, iniş takımı",
-                "F‑135 için titanyum/nikel blisk üretimi",
-              ]
+              bullets: ["Rotor/dişli/iniş takımı, F‑135 blisk"]
             }].map((item) => (
-              <div key={item.name} className="rounded-2xl border border-white/10 glass-card shine p-6">
-                <div className="text-sm text-white/60">Şirket</div>
-                <h3 className="mt-1 text-lg font-semibold">{item.name}</h3>
-                <ul className="mt-3 space-y-2 text-sm text-white/70">
-                  {item.bullets.map((b) => (
-                    <li key={b}>• {b}</li>
-                  ))}
-                </ul>
+              <div key={item.name} className="rounded-xl border border-white/12 bg-white/[0.06] p-5 hover:bg-white/[0.08] transition-colors">
+                <h3 className="text-white/90 font-medium">{item.name}</h3>
+                <p className="mt-1 text-xs text-white/70">{item.bullets[0]}</p>
               </div>
             ))}
           </div>

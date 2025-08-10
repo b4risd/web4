@@ -31,7 +31,7 @@ export default function Home() {
         <div className="container-centered py-20 md:py-24 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
-              <span className="text-glow">Türkiye'nin Savunma Sanayi Platformu</span>
+              <span className="text-glow">Türkiye Savunma Sanayi</span>
             </div>
             <h1 className="mt-8 text-5xl md:text-6xl font-semibold tracking-tight leading-[1.2] pb-1 gradient-text tilt">
               Türkiye'nin Savunma Sanayi Ekosistemi

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AITool from "./components/AITool";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
               <a className="inline-flex h-12 items-center justify-center rounded-full bg-white px-6 text-black font-medium hover:bg-white/90 transition-colors" href="#contact">İletişime Geç</a>
               <a className="inline-flex h-12 items-center justify-center rounded-full border border-white/15 px-6 text-white/90 hover:bg-white/5 transition-colors" href="#overview">Raporu Oku</a>
             </div>
+            <AITool />
           </div>
         </div>
       </section>

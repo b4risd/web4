@@ -1,6 +1,10 @@
-   ▲ Next.js 15.4.6
-   - Local:        http://localhost:3011
-   - Network:      http://172.30.0.2:3011
-
- ✓ Starting...
- ✓ Ready in 423ms
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3011
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3011)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3011
+}

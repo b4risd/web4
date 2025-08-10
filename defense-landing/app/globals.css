@@ -51,6 +51,12 @@ body {
 html[data-theme="light"] .gradient-text {
   background: linear-gradient(90deg, #0a0a0a 0%, #0f766e 50%, #2563eb 100%);
 }
+/* Ensure headings remain readable in light theme */
+html[data-theme="light"] h1.gradient-text,
+html[data-theme="light"] h2.gradient-text {
+  background: none !important;
+  color: #0a0a0a !important;
+}
 
 .glass-card {
   background: rgba(255, 255, 255, 0.08);

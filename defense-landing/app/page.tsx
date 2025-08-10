@@ -33,7 +33,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
               <span className="text-glow">Türkiye'nin Savunma Sanayi Platformu</span>
             </div>
-            <h1 className="mt-8 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
+            <h1 className="mt-8 text-5xl md:text-6xl font-semibold tracking-tight leading-[1.2] pb-1 gradient-text tilt">
               Türkiye'nin Savunma Sanayi Ekosistemi
             </h1>
             <p className="mt-5 text-white/70 text-lg">

@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
 import AITool from "./components/AITool";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
           {/* Logo removed */}
           <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
             <nav className="flex items-center gap-6 text-sm text-white/70">
-              <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-4 w-auto"/>
+              {/* Flag removed */}
               <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
               <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
               <a href="#programs" className="hover:text-white transition-colors">Programlar</a>

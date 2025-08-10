@@ -33,7 +33,7 @@ export default function AITool(): JSX.Element {
           className="w-full rounded-xl bg-black/30 border border-white/15 px-4 py-3 text-sm outline-none focus:border-white/30 resize-y"
         />
         <div className="mt-3 flex items-center justify-between gap-3">
-          <span className="text-xs text-white/60">Enter ile yazın, butonla ChatGPT’de açın</span>
+          <span className="text-xs text-white/60">Dilediğiniz promptu yazın ve ChatGPT'de açın.</span>
           <a
             href={disabled ? undefined : chatUrl}
             target="_blank"

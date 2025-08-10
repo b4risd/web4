@@ -31,9 +31,9 @@ export default function Home() {
         <div className="container-centered py-24 md:py-28 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip">
-              <span className="text-glow">Türkiyenin Savunma Sanayi Platformu</span>
+              <span className="text-glow shine-text">Türkiyenin Savunma Sanayi Platformu</span>
             </div>
-            <h1 className="mt-6 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
+            <h1 className="mt-8 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
               Türkiye'nin Savunma Sanayi Ekosistemi
             </h1>
             <p className="mt-5 text-white/70 text-lg">
@@ -317,30 +317,50 @@ export default function Home() {
               {
                 title: "C4ISR ve Ortak Resim",
                 desc: "Çoklu sensör (EO/IR, SAR, RF) entegrasyonu, taktik veri füzyonu ve durum farkındalığı.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h18" stroke="currentColor" strokeOpacity=".8"/><circle cx="12" cy="12" r="7" stroke="currentColor" strokeOpacity=".8"/></svg>
+                ),
               },
               {
                 title: "Taktik Veri Bağlantıları",
                 desc: "NATO STANAG, Link-16, VMF, JREAP, SATCOM üzerinden düşük gecikmeli veri aktarımı.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8l8 8 4-4 4 4" stroke="currentColor" strokeOpacity=".8"/><circle cx="6" cy="6" r="2" fill="currentColor"/></svg>
+                ),
               },
               {
                 title: "Elektronik Harp",
                 desc: "Sinyal tespit/sınıflandırma, tehdit kütüphanesi, spektrum hâkimiyeti.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12h4l2 4 4-8 2 4h8" stroke="currentColor" strokeOpacity=".8"/></svg>
+                ),
               },
               {
                 title: "Otonom Sistemler",
                 desc: "İHA/İKA sürü koordinasyonu, rota optimizasyonu ve görev planlama.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="2" fill="currentColor"/><circle cx="16" cy="16" r="2" fill="currentColor"/><path d="M8 8l6 6" stroke="currentColor" strokeOpacity=".8"/></svg>
+                ),
               },
               {
                 title: "Siber Güvenlik",
                 desc: "Uçtan uca şifreleme, donanım güvenlik modülü (HSM) ve PKI tabanlı kimlik.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="10" width="16" height="10" rx="2" stroke="currentColor" strokeOpacity=".8"/><path d="M8 10V8a4 4 0 118 0v2" stroke="currentColor" strokeOpacity=".8"/></svg>
+                ),
               },
               {
                 title: "Komuta-Kontrol",
                 desc: "Görev bilgisayarları, taktik harita, hedef tespiti ve angajman yönetimi.",
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="12" rx="2" stroke="currentColor" strokeOpacity=".8"/><path d="M3 18h18" stroke="currentColor" strokeOpacity=".8"/></svg>
+                ),
               },
             ].map((f) => (
-              <div key={f.title} className="rounded-2xl border border-white/10 bg-white/[0.08] p-6 backdrop-blur-md">
-                <div className="size-9 rounded bg-white/10 border border-white/20" />
+              <div key={f.title} className="rounded-2xl border border-white/15 bg-white/[0.10] p-6 backdrop-blur-md accent-corner">
+                <div className="size-10 rounded-lg bg-white/10 border border-white/20 flex items-center justify-center text-white/80">
+                  {f.icon}
+                </div>
                 <h3 className="mt-4 text-lg font-semibold">{f.title}</h3>
                 <p className="mt-2 text-sm text-white/70">{f.desc}</p>
               </div>
@@ -383,7 +403,7 @@ export default function Home() {
                 points: ["Silah arayüzleri ve telemetri", "Hedef tespit/teşhis paylaşımı", "Kayıt ve sonrası analiz"],
               },
             ].map((p) => (
-              <div key={p.name} className="rounded-2xl border border-white/10 bg-white/[0.08] p-6 backdrop-blur-md">
+              <div key={p.name} className="rounded-2xl border border-white/15 bg-white/[0.10] backdrop-blur-md p-6 accent-corner">
                 <div className="text-sm text-white/60">Program</div>
                 <div className="mt-1 text-xl font-semibold">{p.name}</div>
                 <ul className="mt-4 space-y-2 text-sm text-white/70">
@@ -457,14 +477,14 @@ export default function Home() {
         <div className="container-centered py-16">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              ["+120","Ağ Düğümü"],
-              ["<50ms","Veri Gecikmesi"],
-              ["99.99%","Uptime"],
-              ["MIL-STD","Dayanım"],
+              ["5","Tier‑1 Şirket"],
+              ["7.1B$","2024 İhracat"],
+              ["2.6B$","2023 Ar‑Ge"],
+              ["1000+","Küme Üyesi"],
             ].map(([kpi, label]) => (
-              <div key={label}>
+              <div key={label} className="glass-card py-6 rounded-xl">
                 <div className="text-3xl font-semibold">{kpi}</div>
-                <div className="mt-1 text-xs text-white/60">{label}</div>
+                <div className="mt-1 text-xs text-white/70">{label}</div>
               </div>
             ))}
           </div>
@@ -484,11 +504,13 @@ export default function Home() {
               { title: "MİLGEM arayüz güncellemesi", date: "2025-06-12" },
               { title: "SİPER entegrasyon testi tamamlandı", date: "2025-05-20" },
             ].map((n) => (
-              <article key={n.title} className="rounded-2xl border border-white/10 bg-white/[0.08] p-6 backdrop-blur-md">
-                <div className="text-xs text-white/60">{n.date}</div>
-                <h3 className="mt-2 text-lg font-semibold">{n.title}</h3>
-                <p className="mt-2 text-sm text-white/70">Detaylar için bizimle iletişime geçin.</p>
-                <a className="mt-4 inline-flex text-sm text-white/90 hover:text-white" href="#contact">İletişim →</a>
+              <article key={n.title} className="rounded-2xl border border-white/15 bg-white/[0.10] backdrop-blur-md p-0 overflow-hidden">
+                <div className="bg-white/[0.06] px-6 py-3 text-xs text-white/80 border-b border-white/10">Haber & Duyuru · {n.date}</div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold">{n.title}</h3>
+                  <p className="mt-2 text-sm text-white/70">Detaylar için bizimle iletişime geçin.</p>
+                  <a className="mt-4 inline-flex text-sm text-white/90 hover:text-white" href="#contact">İletişim →</a>
+                </div>
               </article>
             ))}
           </div>

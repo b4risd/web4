@@ -296,3 +296,9 @@ Import trace for requested module:
  GET / 200 in 79ms
  GET /favicon.ico 200 in 11ms
  GET /favicon.ico 200 in 5ms
+ GET / 200 in 113ms
+ GET /favicon.ico 200 in 8ms
+ GET / 200 in 74ms
+ GET /favicon.ico 200 in 8ms
+ GET / 200 in 98ms
+ GET /favicon.ico 200 in 8ms

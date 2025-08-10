@@ -1,0 +1,6 @@
+{
+  "framework": "nextjs",
+  "installCommand": "cd defense-landing && npm ci",
+  "buildCommand": "cd defense-landing && npm run build",
+  "outputDirectory": "defense-landing/.next"
+}

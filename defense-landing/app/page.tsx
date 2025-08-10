@@ -189,7 +189,7 @@ export default function Home() {
               name: "Sanayi Kümeleri (SAHA/OSSA)",
               text: "1000'e yakın üye firma ile Avrupa'nın en büyük kümelenmesi; EYDEP, sertifikasyon ve B2B etkinlikleriyle KOBİ'leri ana yüklenicilere bağlar."
             }].map((c) => (
-              <div key={c.name} className="rounded-2xl border-gradient-emerald backdrop-blur-md p-6">
+              <div key={c.name} className="rounded-2xl border-gradient-emerald glass-card p-6">
                 <div className="text-sm text-white/60">Kurum</div>
                 <h3 className="mt-1 text-lg font-semibold">{c.name}</h3>
                 <p className="mt-3 text-sm text-white/70">{c.text}</p>

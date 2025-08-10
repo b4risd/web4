@@ -315,25 +315,30 @@ export default function Home() {
 
       {/* Product section */}
       <section id="products" className="border-t border-white/10 bg-black">
-        <div className="container-centered py-20 grid lg:grid-cols-2 gap-10 items-center">
-          <div className="relative">
-            <div className="rounded-2xl border border-white/10 bg-white/[0.06] aspect-video flex items-center justify-center text-white/70 backdrop-blur-md overflow-hidden">
-              <img src="/defense/aircraft-hud.svg" alt="HUD" className="w-full h-full object-cover opacity-90"/>
-            </div>
-            <div className="absolute -bottom-6 -right-6 w-40 h-28 rounded-xl border border-white/10 bg-white/[0.08] backdrop-blur-md hidden md:flex items-center justify-center text-xs text-white/70 overflow-hidden">
-              <img src="/defense/radar-mini.svg" alt="Radar" className="w-full h-full object-cover opacity-90"/>
-            </div>
+        <div className="container-centered py-20">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Savunma Sanayinde Güncel Çalışmalar</h2>
+            <p className="mt-3 text-white/70">Güncel bilgiler, Ar‑Ge çalışmaları ve sektör gelişmeleri.</p>
           </div>
-          <div className="max-w-xl mx-auto lg:mx-0">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Aegis Mission OS</h2>
-            <p className="mt-4 text-white/70">
-              Görev bilgisayarları için optimize edilmiş, düşük gecikmeli, modüler görev işletim sistemi. NATO STANAG uyumlu arayüzler ve SDK ile genişletilebilir.
-            </p>
-            <ul className="mt-6 space-y-3 text-white/80">
-              <li>• STANAG 4586, Link-16, VMF entegrasyonları</li>
-              <li>• Taktik harita, hedef tespiti, rota/koridor planlama</li>
-              <li>• Ayrıcalıklı erişim, loglama ve denetim izleri</li>
-            </ul>
+          <div className="mt-10 grid md:grid-cols-2 gap-6">
+            {[
+              "https://www.youtube.com/embed/nbDsUKlRvP0",
+              "https://www.youtube.com/embed/SA0ObMNguio",
+              "https://www.youtube.com/embed/qqBOAC4tTh8",
+              "https://www.youtube.com/embed/P90RCdAJ5ng",
+            ].map((src) => (
+              <div key={src} className="rounded-2xl border border-white/10 bg-white/[0.06] aspect-video overflow-hidden">
+                <iframe
+                  className="w-full h-full"
+                  src={`${src}`}
+                  title="Savunma Sanayi Videosu"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -59,3 +59,20 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /favicon.ico 200 in 190ms
  GET / 200 in 188ms
  GET /favicon.ico 200 in 9ms
+ ✓ Compiled in 774ms (883 modules)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 364ms
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 241ms

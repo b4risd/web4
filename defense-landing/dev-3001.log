@@ -244,3 +244,9 @@ Import trace for requested module:
  ✓ Compiled in 229ms (802 modules)
  ✓ Compiled in 295ms (802 modules)
  ✓ Compiled in 290ms (802 modules)
+ ✓ Compiled in 412ms (802 modules)
+ ✓ Compiled in 185ms (802 modules)
+ GET / 200 in 286ms
+ ✓ Compiled in 152ms (802 modules)
+ ✓ Compiled /favicon.ico in 153ms (441 modules)
+ GET /favicon.ico 200 in 270ms

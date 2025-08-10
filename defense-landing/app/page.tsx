@@ -7,7 +7,7 @@ export default function Home() {
       {/* Navbar */}
       <header className="sticky top-0 z-40">
         <div className="container-centered h-16 flex items-center justify-center">
-          <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
+          <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2 nav-pulse">
             <nav className="flex items-center gap-6 text-sm text-white/70">
               <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
               <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
@@ -29,7 +29,7 @@ export default function Home() {
         <div className="container-centered py-20 md:py-24 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
-              <span className="text-glow">Türkiyenin Savunma Sanayi Platformu</span>
+              <span className="text-glow">Türkiye'nin Savunma Sanayi Platformu</span>
             </div>
             <h1 className="mt-8 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">
               Türkiye'nin Savunma Sanayi Ekosistemi

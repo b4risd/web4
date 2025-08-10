@@ -273,3 +273,9 @@ Import trace for requested module:
  GET /favicon.ico 200 in 4ms
  GET / 200 in 169ms
  GET /favicon.ico 200 in 9ms
+ ✓ Compiled in 344ms (802 modules)
+ GET / 200 in 431ms
+ GET / 200 in 38ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /favicon.ico in 89ms (441 modules)
+ GET /favicon.ico 200 in 168ms

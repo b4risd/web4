@@ -6,17 +6,15 @@ export default function Home() {
     <div className="font-sans min-h-screen">
       {/* Navbar */}
       <header className="sticky top-0 z-40 bg-transparent border-0">
-        <div className="container-centered h-16 flex items-center justify-center pointer-events-none">
-          <div className="rounded-full bg-white/5 backdrop-blur-sm px-5 py-2 pointer-events-auto">
-            <nav className="flex items-center gap-6 text-sm text-white/70">
-              <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
-              <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
-              <a href="#programs" className="hover:text-white transition-colors">Programlar</a>
-              <a href="#top20" className="hover:text-white transition-colors">Top 20</a>
-              <a href="#architects" className="hover:text-white transition-colors">Mimarlar</a>
-              <a href="#contact" className="hover:text-white transition-colors">İletişim</a>
-            </nav>
-          </div>
+        <div className="container-centered h-16 flex items-center justify-center">
+          <nav className="flex items-center gap-6 text-sm text-white/70">
+            <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
+            <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
+            <a href="#programs" className="hover:text-white transition-colors">Programlar</a>
+            <a href="#top20" className="hover:text-white transition-colors">Top 20</a>
+            <a href="#architects" className="hover:text-white transition-colors">Mimarlar</a>
+            <a href="#contact" className="hover:text-white transition-colors">İletişim</a>
+          </nav>
         </div>
       </header>
 

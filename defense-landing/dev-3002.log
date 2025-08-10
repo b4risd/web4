@@ -17,3 +17,9 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET / 200 in 152ms
  ✓ Compiled /favicon.ico in 140ms (343 modules)
  GET /favicon.ico 200 in 222ms
+ ✓ Compiled in 624ms (555 modules)
+ GET / 200 in 208ms
+ ✓ Compiled /_not-found in 227ms (546 modules)
+ GET /_next/static/webpack/872628b329c4ed4b.webpack.hot-update.json 404 in 358ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 90ms

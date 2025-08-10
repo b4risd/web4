@@ -486,6 +486,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">İletişim</h2>
             <p className="mt-3 text-white/70">Proje, entegrasyon ve saha demonstrasyonu talepleriniz için bize ulaşın.</p>
+            <p className="mt-2 text-white/80">E-posta: <a href="mailto:info@savsa.tr" className="font-semibold underline underline-offset-4">info@savsa.tr</a></p>
           </div>
           <div className="mt-8 max-w-2xl mx-auto rounded-2xl border border-white/10 bg-white/[0.08] p-6 backdrop-blur-md">
             <form action="mailto:sales@aegisdefense.example" method="post" className="grid md:grid-cols-2 gap-4">

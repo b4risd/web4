@@ -30,7 +30,7 @@ export default function Home() {
         <div className="absolute inset-0 opacity-[0.12]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.6) 1px, transparent 1px)", backgroundSize: "24px 24px" }} />
         <div className="container-centered py-24 md:py-28 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip">
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
               <span className="text-glow shine-text">Türkiyenin Savunma Sanayi Platformu</span>
             </div>
             <h1 className="mt-8 text-5xl md:text-6xl font-semibold tracking-tight gradient-text tilt">

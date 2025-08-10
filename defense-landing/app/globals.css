@@ -249,7 +249,7 @@ html[data-theme="light"] h2.gradient-text {
   opacity: 0.12;
   background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.6) 1px, transparent 1px);
   background-size: 24px 24px;
-  animation: gridDrift 40s linear infinite;
+  animation: none;
 }
 @keyframes gridDrift {
   0% { background-position: 0 0; }

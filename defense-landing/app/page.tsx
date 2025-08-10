@@ -11,7 +11,7 @@ export default function Home() {
           {/* Logo removed */}
           <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
             <nav className="flex items-center gap-6 text-sm text-white/70">
-              {/* Flag removed */}
+              <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-4 w-auto"/>
               <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
               <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
               <a href="#programs" className="hover:text-white transition-colors">Programlar</a>
@@ -55,7 +55,7 @@ export default function Home() {
       {/* Overview & KPIs (from report) */}
       <section id="overview" className="border-t border-white/10 bg-black section-tint-emerald">
         <div className="container-centered pt-14 pb-20">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-4xl mx_auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Yönetici Özeti ve Genel Bakış</h2>
             <p className="mt-4 text-white/70">
               Türk savunma ve havacılık sanayi, dışa bağımlılıktan küresel rekabete evrilen stratejik bir dönüşüm hikâyesidir. 2002'de 1 milyar $ cirodan,
@@ -120,7 +120,7 @@ export default function Home() {
       {/* Top 20 Şirket */}
       <section id="top20" className="border-t border-white/10 bg-black section-tint-cyan">
         <div className="container-centered py-20">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl mx_auto text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight gradient-text">Türkiye Savunma Sanayi: Top 20 Şirket</h2>
             <p className="mt-3 text-white/70">Lider firmalar tek sütunda, kısa özetle.</p>
           </div>
@@ -147,7 +147,7 @@ export default function Home() {
               { name: "Meteksan Savunma Sanayi A.Ş.", category: "Radar, sonar, veri bağı; SİDA", url: "https://www.meteksan.com" },
               { name: "Sarsılmaz Silah Sanayi A.Ş.", category: "Hafif silahlar ve makineli tüfekler", url: "https://www.sarsilmaz.com" },
             ].map((c, idx) => (
-              <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
+              <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg_white/[0.08] transition-colors">
                 <div>
                   <h3 className="text-white/90 text-sm font-medium">{idx + 1}. {c.name}</h3>
                   <p className="text-xs text-white/70 mt-0.5">{c.category}</p>

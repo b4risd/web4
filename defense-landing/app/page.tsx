@@ -33,7 +33,8 @@ export default function Home() {
         <div className="absolute inset-0 moving-grid" />
         <div className="container-centered py-20 md:py-24 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
+            <div className="inline-flex flex-col items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-white/80 text-xs glass-card chip chip-ambient">
+              <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-6 md:h-7 w-auto"/>
               <span className="text-glow">Türkiye Savunma Sanayi</span>
             </div>
             <h2 className="hero-heading mt-8 md:text-6xl font-semibold tracking-tight leading-[1.2] pb-1 gradient-text tilt">

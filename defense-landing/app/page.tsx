@@ -13,7 +13,7 @@ export default function Home() {
           {/* No logo */}
           <div className="rounded-full border border-white/15 bg-white/10 backdrop-blur-md px-5 py-2">
             <nav className="flex items-center gap-6 text-sm text-white/70">
-              <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-4 w-auto"/>
+              {/* navbar flag removed as requested */}
               <a href="#overview" className="hover:text-white transition-colors">Rapor</a>
               <a href="#features" className="hover:text-white transition-colors">Yetenekler</a>
               <a href="#programs" className="hover:text-white transition-colors">Programlar</a>
@@ -33,8 +33,9 @@ export default function Home() {
         <div className="absolute inset-0 moving-grid" />
         <div className="container-centered py-20 md:py-24 relative">
           <div className="max-w-3xl mx-auto text-center perspective-1000">
-            <div className="inline-flex flex-col items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-white/80 text-xs glass-card chip chip-ambient">
-              <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-6 md:h-7 w-auto"/>
+            {/* centered, larger flag above the chip */}
+            <img src="/flags/tr.svg" alt="Türkiye Bayrağı" className="h-7 md:h-8 w-auto mx-auto mb-2"/>
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white/80 text-xs glass-card chip chip-ambient">
               <span className="text-glow">Türkiye Savunma Sanayi</span>
             </div>
             <h2 className="hero-heading mt-8 md:text-6xl font-semibold tracking-tight leading-[1.2] pb-1 gradient-text tilt">

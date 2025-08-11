@@ -12,7 +12,11 @@ export const metadata: Metadata = {
   title: "Savunma Sanayi Şirketleri - Türkiye & Global | SAVSA.TR",
   description:
     "SAVSA.TR: Türkiye'nin ve dünyanın önde gelen savunma sanayi şirketlerini keşfedin. Teknoloji, inovasyon ve milli güvenlik odaklı içerikler.",
-  icons: { icon: "/favicon.ico" },
+  icons: {
+    icon: "/icon.ico",
+    shortcut: "/icon.ico",
+    apple: "/icon.ico",
+  },
   openGraph: {
     title: "Savunma Sanayi Şirketleri - Türkiye & Global | SAVSA.TR",
     description:

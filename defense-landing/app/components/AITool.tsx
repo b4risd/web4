@@ -37,7 +37,7 @@ export default function AITool() {
           <a
             href={disabled ? undefined : chatUrl}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noreferrer"
             aria-disabled={disabled}
             className={`inline-flex h-11 items-center justify-center rounded-full px-5 text-sm font-medium transition-colors ${
               disabled ? "bg-white/20 text-white/50 cursor-not-allowed" : "bg-white text-black hover:bg-white/90"

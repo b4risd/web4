@@ -150,7 +150,7 @@ export default function Home() {
               { name: "Meteksan Savunma Sanayi A.Ş.", category: "Radar, sonar, veri bağı; SİDA", url: "https://www.meteksan.com" },
               { name: "Sarsılmaz Silah Sanayi A.Ş.", category: "Hafif silahlar ve makineli tüfekler", url: "https://www.sarsilmaz.com" },
             ].map((c, idx) => (
-              <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
+              <a key={c.name} href={c.url} target="_blank" rel="nofollow noreferrer" className="rounded-lg border border-white/12 bg-white/[0.05] p-4 flex items-center justify-between hover:bg-white/[0.08] transition-colors">
                 <div>
                   <h3 className="text-white/90 text-sm font-medium">{idx + 1}. {c.name}</h3>
                   <p className="text-xs text-white/70 mt-0.5">{c.category}</p>

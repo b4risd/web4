@@ -15,7 +15,7 @@ export default function AITool() {
   return (
     <div className="mt-10">
       <div className="mb-3 text-center">
-        <h3 className="text-xl md:text-2xl font-semibold">Savunma Sanayi Akıllı Soru Motoru</h3>
+        <h3 className="text-xl md:text-2xl font-semibold">Savunma Sanayi Yapay Zeka Aracı</h3>
         <p className="mt-2 text-sm text-white/70">
           Sorunuzu yazın, ChatGPT üzerinde açın. Yakında özel GPT&rsquo;ye bağlanacak.
         </p>

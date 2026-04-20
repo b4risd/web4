@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Savunma Sanayi Şirketleri - Türkiye & Global | Savsa",
+  title: "Savunma Sanayi Şirketleri - Türkiye Silah Endüstrisi",
   description:
     "Türkiye'nin ve dünyanın önde gelen savunma sanayi şirketlerini keşfedin. Teknoloji, inovasyon ve milli güvenlik odaklı içerikler.",
   icons: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     apple: "/icon.ico",
   },
   openGraph: {
-    title: "Savunma Sanayi Şirketleri - Türkiye & Global | Savsa",
+    title: "Savunma Sanayi Şirketleri - Türkiye Silah Endüstrisi",
     description:
       "Türkiye ve global savunma sanayi şirketleri, programlar ve raporlar. SAVSA.TR ile güncel bilgileri keşfedin.",
     type: "website",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savunma Sanayi Şirketleri - Türkiye & Global | Savsa",
+    title: "Savunma Sanayi Şirketleri - Türkiye Silah Endüstrisi",
     description:
       "Savunma sanayi şirketleri ve ekosistemi hakkında güncel bilgiler için SAVSA.TR",
   },

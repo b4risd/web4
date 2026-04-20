@@ -5,7 +5,7 @@ import ContactForm from "./components/ContactForm";
 export default function Home() {
   return (
     <div className="font-sans min-h-screen">
-      <h1 className="sr-only">Savunma Sanayi Şirketleri - Türkiye & Global | Savsa</h1>
+      <h1 className="sr-only">Savunma Sanayi Şirketleri - Türkiye Silah Endüstrisi</h1>
       {/* Navbar */}
       <header className="sticky top-0 z-40 bg-transparent border-0 relative">
         <div className="absolute inset-0 moving-grid pointer-events-none" aria-hidden="true" />

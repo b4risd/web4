@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0b0b0f"/>
+  <g opacity="0.12">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="1600" height="900" fill="url(#grid)"/>
+  </g>
+  <g opacity="0.8" stroke="#CFFFEA">
+    <circle cx="800" cy="450" r="280" stroke-opacity="0.25"/>
+    <circle cx="800" cy="450" r="180" stroke-opacity="0.35"/>
+    <circle cx="800" cy="450" r="90" stroke-opacity="0.55"/>
+    <line x1="200" y1="450" x2="1400" y2="450" stroke-opacity="0.25"/>
+    <line x1="800" y1="100" x2="800" y2="800" stroke-opacity="0.25"/>
+  </g>
+  <g fill="#CFFFEA" opacity="0.8">
+    <rect x="780" y="440" width="40" height="4" rx="2"/>
+    <rect x="798" y="422" width="4" height="40" rx="2"/>
+  </g>
+  <g opacity="0.5">
+    <circle cx="1120" cy="320" r="6" fill="#CFFFEA"/>
+    <circle cx="420" cy="600" r="6" fill="#CFFFEA"/>
+    <circle cx="1030" cy="620" r="4" fill="#CFFFEA"/>
+    <circle cx="620" cy="280" r="4" fill="#CFFFEA"/>
+  </g>
+  <g opacity="0.25" stroke="#CFFFEA">
+    <path d="M1120 320 L 1020 420 L 820 450"/>
+    <path d="M420 600 L 650 520 L 800 450"/>
+  </g>
+</svg>

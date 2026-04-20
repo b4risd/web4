@@ -1,0 +1,30 @@
+
+> defense-landing@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.4.6
+   - Local:        http://localhost:3000
+   - Network:      http://172.30.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 1379ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.4s (557 modules)
+ HEAD / 200 in 2656ms
+ ✓ Compiled in 443ms (225 modules)
+ ✓ Compiled in 135ms (225 modules)
+ ✓ Compiled in 249ms (225 modules)
+ ✓ Compiled in 108ms (225 modules)
+ ✓ Compiled in 118ms (225 modules)
+ ✓ Compiled in 106ms (225 modules)
+ ✓ Compiled in 126ms (225 modules)
+ ✓ Compiled in 219ms (225 modules)
+ ✓ Compiled in 105ms (225 modules)
+ ✓ Compiled in 128ms (225 modules)
+ ✓ Compiled in 140ms (225 modules)
+ ✓ Compiled in 102ms (225 modules)
+ ✓ Compiled in 250ms (225 modules)
+ ✓ Compiled in 130ms (225 modules)
+ ✓ Compiled in 193ms (225 modules)
+ ✓ Compiled in 106ms (225 modules)
+[?25h

@@ -1,0 +1,80 @@
+   ▲ Next.js 15.4.6
+   - Local:        http://localhost:3003
+   - Network:      http://172.30.0.2:3003
+
+ ✓ Starting...
+ ✓ Ready in 1290ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.5s (564 modules)
+ HEAD / 200 in 2805ms
+ GET / 200 in 110ms
+ ⚠ Cross origin request detected from judge-temperatures-foundations-gently.trycloudflare.com to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled /favicon.ico in 212ms (343 modules)
+ GET /favicon.ico 200 in 305ms
+ ✓ Compiled in 679ms (555 modules)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1211ms (869 modules)
+ GET / 500 in 1669ms
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 419ms
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 232ms
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 231ms
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 259ms
+ ✓ Compiled /favicon.ico in 105ms (523 modules)
+ GET /favicon.ico 200 in 190ms
+ GET / 200 in 188ms
+ GET /favicon.ico 200 in 9ms
+ ✓ Compiled in 774ms (883 modules)
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 364ms
+ ⨯ TypeError: __webpack_modules__[moduleId] is not a function
+    at __webpack_exec__ (.next/server/app/page.js:302:39)
+    at <unknown> (.next/server/app/page.js:303:104)
+    at <unknown> (.next/server/app/page.js:303:47)
+    at Object.<anonymous> (.next/server/app/page.js:306:3) {
+  page: '/'
+}
+ GET / 500 in 241ms
+ ○ Compiling /favicon.ico ...
+[?25h

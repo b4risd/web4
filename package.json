@@ -1,0 +1,15 @@
+{
+  "name": "savsa-root",
+  "private": true,
+  "workspaces": [
+    "defense-landing"
+  ],
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "build": "npm -w defense-landing run build",
+    "start": "npm -w defense-landing run start",
+    "dev": "npm -w defense-landing run dev"
+  }
+}

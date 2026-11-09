@@ -1,0 +1,385 @@
+   ▲ Next.js 15.4.6
+   - Local:        http://localhost:3001
+   - Network:      http://172.30.0.2:3001
+
+ ✓ Starting...
+ ✓ Ready in 1184ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s (557 modules)
+ HEAD / 200 in 2668ms
+ GET / 200 in 131ms
+ ✓ Compiled /favicon.ico in 210ms (340 modules)
+ GET /favicon.ico 200 in 305ms
+ ⚠ Cross origin request detected from yn-pittsburgh-faced-ii.trycloudflare.com to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ✓ Compiled in 453ms (548 modules)
+ GET / 200 in 151ms
+ ✓ Compiled in 206ms (548 modules)
+ GET / 200 in 104ms
+ GET / 200 in 168ms
+ ✓ Compiled /favicon.ico in 131ms (340 modules)
+ GET /favicon.ico 200 in 204ms
+ GET / 200 in 184ms
+ ✓ Compiled in 347ms (548 modules)
+ GET / 200 in 139ms
+ ✓ Compiled in 154ms (548 modules)
+ GET / 200 in 94ms
+ GET / 200 in 143ms
+ ✓ Compiled /favicon.ico in 67ms (340 modules)
+ GET /favicon.ico 200 in 136ms
+ ✓ Compiled in 225ms (565 modules)
+ GET / 200 in 113ms
+ GET /favicon.ico 200 in 11ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 231ms (565 modules)
+ GET / 200 in 77ms
+ GET /favicon.ico 200 in 9ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 192ms (565 modules)
+ GET / 200 in 74ms
+ GET /favicon.ico 200 in 9ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 171ms
+ GET /favicon.ico 200 in 9ms
+ ✓ Compiled in 388ms (548 modules)
+ GET / 200 in 157ms
+ ✓ Compiled /favicon.ico in 73ms (340 modules)
+ GET /favicon.ico 200 in 154ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled in 178ms (565 modules)
+ GET / 200 in 91ms
+ GET /favicon.ico 200 in 9ms
+ GET /favicon.ico 200 in 4ms
+ GET / 200 in 138ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 375ms (548 modules)
+ GET / 200 in 143ms
+ ✓ Compiled /favicon.ico in 87ms (340 modules)
+ GET /favicon.ico 200 in 341ms
+ GET / 200 in 353ms
+ GET /favicon.ico 200 in 6ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 112ms
+ GET /favicon.ico 200 in 7ms
+ ✓ Compiled in 340ms (565 modules)
+ GET / 200 in 105ms
+ GET /favicon.ico 200 in 12ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 323ms (548 modules)
+ GET / 200 in 132ms
+ GET / 200 in 148ms
+ ✓ Compiled /favicon.ico in 75ms (340 modules)
+ GET /favicon.ico 200 in 146ms
+ GET / 200 in 179ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled in 336ms (565 modules)
+ GET / 200 in 115ms
+ GET /favicon.ico 200 in 14ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 166ms (565 modules)
+ GET / 200 in 100ms
+ GET /favicon.ico 200 in 11ms
+ GET /favicon.ico 200 in 3ms
+ GET / 200 in 158ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 330ms (548 modules)
+ GET / 200 in 155ms
+ ✓ Compiled /favicon.ico in 61ms (340 modules)
+ GET /favicon.ico 200 in 140ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled in 195ms (565 modules)
+ GET / 200 in 93ms
+ GET /favicon.ico 200 in 7ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 171ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 110ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 92ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 215ms (565 modules)
+ GET / 200 in 82ms
+ GET /favicon.ico 200 in 9ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 149ms
+ GET /favicon.ico 200 in 7ms
+ ✓ Compiled in 298ms (565 modules)
+ GET / 200 in 107ms
+ GET /favicon.ico 200 in 11ms
+ GET /favicon.ico 200 in 4ms
+ GET / 200 in 125ms
+ GET /favicon.ico 200 in 7ms
+ GET / 200 in 82ms
+ ✓ Compiled in 108ms (225 modules)
+ ✓ Compiled in 82ms (225 modules)
+ GET / 200 in 44ms
+ GET / 200 in 41ms
+ ✓ Compiled in 373ms (555 modules)
+ GET / 200 in 127ms
+ ✓ Compiled in 128ms (555 modules)
+ GET / 200 in 94ms
+ GET / 200 in 133ms
+ ✓ Compiled /favicon.ico in 70ms (343 modules)
+ GET /favicon.ico 200 in 136ms
+ ✓ Compiled in 274ms (555 modules)
+ GET / 200 in 164ms
+ GET / 200 in 134ms
+ ✓ Compiled /favicon.ico in 73ms (343 modules)
+ GET /favicon.ico 200 in 141ms
+ GET / 200 in 188ms
+ GET /favicon.ico 200 in 7ms
+ ✓ Compiled in 267ms (555 modules)
+ GET / 200 in 91ms
+ ✓ Compiled /favicon.ico in 97ms (343 modules)
+ GET /favicon.ico 200 in 130ms
+ GET /favicon.ico 200 in 5ms
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m Expected '</', got '}'
+    ,-[[36;1;4m/workspace/defense-landing/app/page.tsx[0m:50:1]
+ [2m47[0m | 
+ [2m48[0m |           {/* marquee logos */}
+ [2m49[0m |           <div className="relative mt-16 overflow-hidden">
+ [2m50[0m |             <div className="flex gap-6 flex-wrap justify-center"}
+    : [35;1m                                                                ^[0m
+ [2m51[0m |               {Array(2)
+ [2m52[0m |                 .fill([
+ [2m53[0m |                   "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m Expected '</', got '}'
+    ,-[[36;1;4m/workspace/defense-landing/app/page.tsx[0m:50:1]
+ [2m47[0m | 
+ [2m48[0m |           {/* marquee logos */}
+ [2m49[0m |           <div className="relative mt-16 overflow-hidden">
+ [2m50[0m |             <div className="flex gap-6 flex-wrap justify-center"}
+    : [35;1m                                                                ^[0m
+ [2m51[0m |               {Array(2)
+ [2m52[0m |                 .fill([
+ [2m53[0m |                   "ASELSAN","TUSAŞ","ROKETSAN","HAVELSAN","STM","BAYKAR",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+ GET / 500 in 2640ms
+ GET / 500 in 11ms
+ GET / 500 in 13ms
+ GET / 500 in 7ms
+ ✓ Compiled /_error in 265ms (883 modules)
+ ✓ Compiled /_not-found in 173ms (874 modules)
+ GET /_next/static/webpack/923c004b022a4e49.webpack.hot-update.json 404 in 354ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 100ms
+ ✓ Compiled in 161ms (888 modules)
+ ✓ Compiled /favicon.ico in 137ms (524 modules)
+ GET /favicon.ico 200 in 239ms
+ ✓ Compiled in 290ms (796 modules)
+ GET / 200 in 146ms
+ ✓ Compiled /favicon.ico in 91ms (437 modules)
+ GET /favicon.ico 200 in 159ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 205ms
+ GET /favicon.ico 200 in 8ms
+ ✓ Compiled in 304ms (796 modules)
+ GET / 200 in 132ms
+ ✓ Compiled /favicon.ico in 75ms (437 modules)
+ GET /favicon.ico 200 in 127ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 178ms
+ GET /favicon.ico 200 in 7ms
+ GET / 200 in 94ms
+ GET /favicon.ico 200 in 7ms
+ ✓ Compiled in 264ms (813 modules)
+ GET / 200 in 68ms
+ GET /favicon.ico 200 in 8ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 169ms (813 modules)
+ GET / 200 in 70ms
+ GET /favicon.ico 200 in 8ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 120ms (376 modules)
+ GET / 200 in 50ms
+ GET /favicon.ico 200 in 6ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled in 317ms (816 modules)
+ GET / 200 in 105ms
+ GET /favicon.ico 200 in 14ms
+ GET /favicon.ico 200 in 4ms
+ ✓ Compiled in 157ms (816 modules)
+ GET / 200 in 71ms
+ GET /favicon.ico 200 in 9ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled in 281ms (799 modules)
+ GET / 200 in 131ms
+ ✓ Compiled /favicon.ico in 67ms (439 modules)
+ GET /favicon.ico 200 in 137ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 295ms (799 modules)
+ GET / 200 in 118ms
+ ✓ Compiled /favicon.ico in 83ms (439 modules)
+ GET /favicon.ico 200 in 153ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 282ms (799 modules)
+ GET / 200 in 91ms
+ ✓ Compiled /favicon.ico in 100ms (439 modules)
+ GET /favicon.ico 200 in 172ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled in 146ms (816 modules)
+ GET / 200 in 97ms
+ ✓ Compiled in 139ms (816 modules)
+ ✓ Compiled in 184ms (816 modules)
+ ✓ Compiled in 155ms (816 modules)
+ ✓ Compiled in 219ms (816 modules)
+ ✓ Compiled in 184ms (799 modules)
+ ✓ Compiled in 83ms (377 modules)
+ ✓ Compiled in 229ms (802 modules)
+ ✓ Compiled in 295ms (802 modules)
+ ✓ Compiled in 290ms (802 modules)
+ ✓ Compiled in 412ms (802 modules)
+ ✓ Compiled in 185ms (802 modules)
+ GET / 200 in 286ms
+ ✓ Compiled in 152ms (802 modules)
+ ✓ Compiled /favicon.ico in 153ms (441 modules)
+ GET /favicon.ico 200 in 270ms
+ GET / 200 in 203ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 88ms
+ GET /favicon.ico 200 in 7ms
+ GET / 200 in 92ms
+ GET /favicon.ico 200 in 8ms
+ ✓ Compiled in 321ms (819 modules)
+ GET / 200 in 94ms
+ GET /favicon.ico 200 in 13ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled in 304ms (819 modules)
+ GET / 200 in 65ms
+ GET /favicon.ico 200 in 8ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 124ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 372ms (802 modules)
+ GET / 200 in 154ms
+ ✓ Compiled /favicon.ico in 124ms (441 modules)
+ GET /favicon.ico 200 in 199ms
+ GET /favicon.ico 200 in 4ms
+ GET / 200 in 169ms
+ GET /favicon.ico 200 in 9ms
+ ✓ Compiled in 344ms (802 modules)
+ GET / 200 in 431ms
+ GET / 200 in 38ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /favicon.ico in 89ms (441 modules)
+ GET /favicon.ico 200 in 168ms
+ GET / 200 in 163ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 367ms (802 modules)
+ GET / 200 in 149ms
+ ✓ Compiled /favicon.ico in 98ms (441 modules)
+ GET /favicon.ico 200 in 169ms
+ GET /favicon.ico 200 in 7ms
+ GET / 200 in 176ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 82ms
+ GET /favicon.ico 200 in 7ms
+ GET / 200 in 99ms
+ GET /favicon.ico 200 in 9ms
+ ✓ Compiled in 256ms (819 modules)
+ GET / 200 in 79ms
+ GET /favicon.ico 200 in 11ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 113ms
+ GET /favicon.ico 200 in 8ms
+ GET / 200 in 74ms
+ GET /favicon.ico 200 in 8ms
+ GET / 200 in 98ms
+ GET /favicon.ico 200 in 8ms
+ ✓ Compiled in 365ms (799 modules)
+ GET / 200 in 116ms
+ ✓ Compiled /favicon.ico in 74ms (439 modules)
+ GET /favicon.ico 200 in 162ms
+ GET /favicon.ico 200 in 3ms
+ ✓ Compiled in 323ms (799 modules)
+ GET / 200 in 105ms
+ ✓ Compiled /favicon.ico in 80ms (439 modules)
+ GET /favicon.ico 200 in 158ms
+ GET /favicon.ico 200 in 7ms
+ GET / 200 in 196ms
+ GET /favicon.ico 200 in 8ms
+ ✓ Compiled in 290ms (799 modules)
+ GET / 200 in 144ms
+ ✓ Compiled /favicon.ico in 87ms (439 modules)
+ GET /favicon.ico 200 in 159ms
+ GET /favicon.ico 200 in 4ms
+ ✓ Compiled in 397ms (782 modules)
+ GET / 200 in 121ms
+ ✓ Compiled /favicon.ico in 75ms (437 modules)
+ GET /favicon.ico 200 in 147ms
+ GET /favicon.ico 200 in 7ms
+ ✓ Compiled in 452ms (796 modules)
+ GET / 200 in 147ms
+ ✓ Compiled /favicon.ico in 72ms (437 modules)
+ GET /favicon.ico 200 in 164ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 310ms (796 modules)
+ GET / 200 in 103ms
+ ✓ Compiled /favicon.ico in 69ms (437 modules)
+ GET /favicon.ico 200 in 144ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 371ms
+ GET /favicon.ico 200 in 11ms
+ GET / 200 in 128ms
+ ✓ Compiled in 528ms (796 modules)
+ GET / 200 in 156ms
+ ✓ Compiled /favicon.ico in 85ms (437 modules)
+ GET /favicon.ico 200 in 200ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 264ms
+ GET /favicon.ico 200 in 29ms
+ ✓ Compiled in 171ms (376 modules)
+ GET / 200 in 45ms
+ GET /favicon.ico 200 in 8ms
+ GET /favicon.ico 200 in 3ms
+ GET / 200 in 100ms
+ GET /favicon.ico 200 in 7ms
+ ✓ Compiled in 163ms (376 modules)
+ GET / 200 in 54ms
+ GET /favicon.ico 200 in 8ms
+ GET /favicon.ico 200 in 4ms
+ GET / 200 in 89ms
+ GET /favicon.ico 200 in 7ms
+ GET / 200 in 100ms
+ GET /favicon.ico 200 in 6ms
+ ✓ Compiled in 160ms (376 modules)
+ GET / 200 in 43ms
+ GET /favicon.ico 200 in 5ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 88ms
+ GET /favicon.ico 200 in 6ms
+ GET / 200 in 96ms
+ GET /favicon.ico 200 in 7ms
+ ✓ Compiled in 294ms (813 modules)
+ GET / 200 in 122ms
+ GET /favicon.ico 200 in 15ms
+ GET /favicon.ico 200 in 9ms
+ ✓ Compiled in 795ms (796 modules)
+ ✓ Compiled in 697ms (796 modules)
+ ✓ Compiled in 534ms (796 modules)
+ ✓ Compiled in 431ms (796 modules)
+ ✓ Compiled in 392ms (796 modules)
+ ✓ Compiled in 423ms (796 modules)
+ ✓ Compiled in 589ms (796 modules)
+ ✓ Compiled in 1184ms (796 modules)
+ ✓ Compiled in 713ms (796 modules)
+ ✓ Compiled in 826ms (796 modules)
+ ✓ Compiled in 303ms (796 modules)
+ ✓ Compiled in 760ms (796 modules)
+[?25h
